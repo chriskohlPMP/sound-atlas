@@ -9,8 +9,11 @@ export function Hero() {
           A Guided Listening Experience
         </p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-text-primary leading-[1.1] mb-6">
-          Sound Atlas
+          Ohrwurm
         </h1>
+        <p className="font-body text-sm text-text-muted tracking-[0.15em] uppercase mb-6">
+          A Sound Atlas
+        </p>
         <p className="font-display text-xl md:text-2xl text-text-secondary italic leading-relaxed mb-4">
           52 tracks. Three records. Six sides.
         </p>

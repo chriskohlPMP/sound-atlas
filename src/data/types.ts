@@ -15,8 +15,11 @@ export interface Track {
   side: Side;
   spotifyId: string | null;
   appleMusicId: string | null;
+  youtubeId: string | null;
   programNotes: ProgramNotes;
 }
+
+export type StreamingPlatform = "spotify" | "apple-music" | "youtube";
 
 export interface Chapter {
   id: string;

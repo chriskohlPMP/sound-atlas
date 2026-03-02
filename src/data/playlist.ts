@@ -2,7 +2,7 @@ import type { Track } from "./types";
 
 export const playlist: Track[] = [
   // === SIDE A ===
-  // Chapter: The Root — "Where it all started."
+  // Chapter: The Root
   {
     id: 1,
     title: "Take My Hand, Precious Lord",
@@ -12,13 +12,11 @@ export const playlist: Track[] = [
     genre: "Gospel",
     chapter: "the-root",
     side: "A",
+    spotifyId: "5rTeB5roClzItVdGeYDDla",
     programNotes: {
-      notes:
-        "We start at the beginning. Before rock, before R&B, before hip-hop — there was this. Just a voice and a church organ. No production tricks, nothing to hide behind.",
-      listenFor:
-        "The raw power of her voice against the simplicity of the organ. On quality headphones, you'll hear the room — the natural reverb of the space she's singing in.",
-      story:
-        "Martin Luther King Jr.'s favorite song. He asked her to sing it at events regularly, and it was sung at his funeral. Without Mahalia there's no Aretha. Without Aretha there's no Adele. Without the gospel tradition there's no Chris Cornell screaming on an acoustic cover.",
+      notes: "We start at the beginning. Before rock, before R&B, before hip-hop — there was this. Just a voice and a church organ. No production tricks, nothing to hide behind.",
+      listenFor: "The raw power of her voice against the simplicity of the organ. On quality headphones, you'll hear the room — the natural reverb of the space she's singing in.",
+      story: "Martin Luther King Jr.'s favorite song. He asked her to sing it at events regularly, and it was sung at his funeral. Without Mahalia there's no Aretha. Without Aretha there's no Adele. Without the gospel tradition there's no Chris Cornell screaming on an acoustic cover.",
     },
   },
   {
@@ -30,13 +28,11 @@ export const playlist: Track[] = [
     genre: "Blues",
     chapter: "the-root",
     side: "A",
+    spotifyId: "1JxjQrdqcyYF9kW3sxsjva",
     programNotes: {
-      notes:
-        "Electric blues, Chess Records — this is the DNA of rock. If you're a Zeppelin fan, this is where they took everything.",
-      listenFor:
-        "The space between the notes. Muddy's guitar tone is fat, raw, and distorted in a way that was revolutionary. On planars, that tone has weight.",
-      story:
-        "Recorded in 1977 for the 'Hard Again' album, produced by Johnny Winter. Muddy was 64 years old and sounding meaner than ever. The original 'Mannish Boy' was from 1955 — this version is the definitive one.",
+      notes: "Electric blues, Chess Records — this is the DNA of rock. If you're a Zeppelin fan, this is where they took everything.",
+      listenFor: "The space between the notes. Muddy's guitar tone is fat, raw, and distorted in a way that was revolutionary. On planars, that tone has weight.",
+      story: "Recorded in 1977 for the 'Hard Again' album, produced by Johnny Winter. Muddy was 64 years old and sounding meaner than ever. The original 'Mannish Boy' was from 1955 — this version is the definitive one.",
     },
   },
   {
@@ -48,13 +44,11 @@ export const playlist: Track[] = [
     genre: "Alternative",
     chapter: "the-root",
     side: "A",
+    spotifyId: "6HJujxcjMmVZhd8z5EpPri",
     programNotes: {
-      notes:
-        "His voice is completely shredded, pouring everything into that final scream, and you can hear the room. The audience is dead silent.",
-      listenFor:
-        "When that final vocal line hits — on planars with mesh pads, you'll hear every crack and strain in his throat. The acoustic guitar has a warmth and body that studio recordings rarely capture.",
-      story:
-        "Recorded November 1993, about five months before Cobain died. He insisted on candles, lilies, and a setup that looked like a funeral. The band's manager asked why it looked like a memorial. Cobain shrugged it off. It was the last note he ever recorded for a live album.",
+      notes: "His voice is completely shredded, pouring everything into that final scream, and you can hear the room. The audience is dead silent.",
+      listenFor: "When that final vocal line hits — on planars with mesh pads, you'll hear every crack and strain in his throat. The acoustic guitar has a warmth and body that studio recordings rarely capture.",
+      story: "Recorded November 1993, about five months before Cobain died. He insisted on candles, lilies, and a setup that looked like a funeral. The band's manager asked why it looked like a memorial. Cobain shrugged it off. It was the last note he ever recorded for a live album.",
     },
   },
   {
@@ -66,17 +60,15 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-root",
     side: "A",
+    spotifyId: "05f8Hg3RSfiPSCBQOtxl3i",
     programNotes: {
-      notes:
-        "That drum sound is one of the most legendary recordings in rock history.",
-      listenFor:
-        "Bonham's kit was recorded in a stairwell — on planars with bass EQ you'll feel that kick drum in your chest. The harmonica and guitar sit in a huge reverberant space that sounds three-dimensional.",
-      story:
-        "The drum recording technique — placing the kit at the bottom of a stairwell in Headley Grange and hanging microphones from the top — has been sampled and imitated more than almost any other recording in history.",
+      notes: "That drum sound is one of the most legendary recordings in rock history.",
+      listenFor: "Bonham's kit was recorded in a stairwell — on planars with bass EQ you'll feel that kick drum in your chest. The harmonica and guitar sit in a huge reverberant space that sounds three-dimensional.",
+      story: "The drum recording technique — placing the kit at the bottom of a stairwell in Headley Grange and hanging microphones from the top — has been sampled and imitated more than almost any other recording in history.",
     },
   },
 
-  // Chapter: The Room — "How space shapes sound."
+  // Chapter: The Room
   {
     id: 5,
     title: "Hotel California (Live On MTV, 1994)",
@@ -86,13 +78,11 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-room",
     side: "A",
+    spotifyId: "2GpBrAoCwt48fxjgjlzMd4",
     programNotes: {
-      notes:
-        "You've heard this song a thousand times. You've never heard it like this. The live version strips away studio polish and drops you into an arena.",
-      listenFor:
-        "The 12-string guitar intro — on quality headphones, each string has its own position in the stereo field. You can pinpoint where each musician is standing on stage.",
-      story:
-        "Recorded live on MTV in 1994 after a 14-year breakup. Don Henley said they'd reunite 'when hell freezes over' — so they named the album that.",
+      notes: "You've heard this song a thousand times. You've never heard it like this. The live version strips away studio polish and drops you into an arena.",
+      listenFor: "The 12-string guitar intro — on quality headphones, each string has its own position in the stereo field. You can pinpoint where each musician is standing on stage.",
+      story: "Recorded live on MTV in 1994 after a 14-year breakup. Don Henley said they'd reunite 'when hell freezes over' — so they named the album that.",
     },
   },
   {
@@ -104,13 +94,11 @@ export const playlist: Track[] = [
     genre: "Jazz",
     chapter: "the-room",
     side: "A",
+    spotifyId: "3Cwhf9hf89L8qIRy0T6GFv",
     programNotes: {
-      notes:
-        "The opening bass line alone will tell you something about the headphones that nothing else on the list can. The best-selling jazz album of all time.",
-      listenFor:
-        "The upright bass has a resonance that fills the entire stereo field. Each instrument occupies its own space — you can hear exactly where the piano, trumpet, and saxophone sit in the room at Columbia's 30th Street Studio.",
-      story:
-        "Recorded in two sessions in March and April 1959. Most of the takes were first takes. Miles gave the musicians sketches instead of charts and told them to play. The result is one of the most influential recordings in music history.",
+      notes: "The opening bass line alone will tell you something about the headphones that nothing else on the list can. The best-selling jazz album of all time.",
+      listenFor: "The upright bass has a resonance that fills the entire stereo field. Each instrument occupies its own space — you can hear exactly where the piano, trumpet, and saxophone sit in the room at Columbia's 30th Street Studio.",
+      story: "Recorded in two sessions in March and April 1959. Most of the takes were first takes. Miles gave the musicians sketches instead of charts and told them to play. The result is one of the most influential recordings in music history.",
     },
   },
   {
@@ -122,13 +110,11 @@ export const playlist: Track[] = [
     genre: "Ambient",
     chapter: "the-room",
     side: "A",
+    spotifyId: "3bCmDqflFBHijgJfvtqev5",
     programNotes: {
-      notes:
-        "The opening track from the album that literally invented the genre of ambient music. About 17 minutes long.",
-      listenFor:
-        "What your headphones do with silence, space, and decay. Notes fade into nothing and you realize you're listening to the room between the sounds.",
-      story:
-        "Eno created it by recording piano and vocal notes on tape loops of different lengths and letting them overlap randomly — the piece never repeats the same way twice.",
+      notes: "The opening track from the album that literally invented the genre of ambient music. About 17 minutes long.",
+      listenFor: "What your headphones do with silence, space, and decay. Notes fade into nothing and you realize you're listening to the room between the sounds.",
+      story: "Eno created it by recording piano and vocal notes on tape loops of different lengths and letting them overlap randomly — the piece never repeats the same way twice.",
     },
   },
   {
@@ -140,18 +126,16 @@ export const playlist: Track[] = [
     genre: "Pop",
     chapter: "the-room",
     side: "A",
+    spotifyId: "5lkpeJwmQKgY3bX2zChjxX",
     programNotes: {
-      notes:
-        "After 17 minutes of ambient tape loops, a human voice and a piano. Simple, devastating, and a masterclass in how little you need.",
-      listenFor:
-        "The piano's sustain pedal — you can hear the dampers lift and the strings ring sympathetically. Adele's breath control is extraordinary; listen for the micro-dynamics between her quiet phrases and full-voice moments.",
-      story:
-        "Produced by Dan Wilson, recorded largely live in one take. The vocal was tracked with Adele at the piano to capture the raw performance. It debuted at number one in the UK and US simultaneously.",
+      notes: "After 17 minutes of ambient tape loops, a human voice and a piano. Simple, devastating, and a masterclass in how little you need.",
+      listenFor: "The piano's sustain pedal — you can hear the dampers lift and the strings ring sympathetically. Adele's breath control is extraordinary; listen for the micro-dynamics between her quiet phrases and full-voice moments.",
+      story: "Produced by Dan Wilson, recorded largely live in one take. The vocal was tracked with Adele at the piano to capture the raw performance. It debuted at number one in the UK and US simultaneously.",
     },
   },
 
   // === SIDE B ===
-  // Chapter: The Voice — "The full range of what a human can do."
+  // Chapter: The Voice
   {
     id: 9,
     title: "Nothing Compares 2 U (Live at SiriusXM, 2015)",
@@ -161,13 +145,11 @@ export const playlist: Track[] = [
     genre: "Alternative",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "0tUELgOuOJ3KCsYMDDsNvD",
     programNotes: {
-      notes:
-        "A four-octave range, acoustic guitar, and a Prince song reimagined as grief. Cornell takes a pop ballad and turns it into something harrowing.",
-      listenFor:
-        "The dynamic range of his voice — from a whisper to a full-power scream within the same phrase. On quality headphones, you'll hear the room mic picking up the guitar body resonance alongside his vocal.",
-      story:
-        "Recorded live at SiriusXM studios in 2015, two years before his death. Prince wrote the original for The Family in 1985; Sinead O'Connor's version became iconic. Cornell's stripped-back live version might be the most emotionally devastating of them all.",
+      notes: "A four-octave range, acoustic guitar, and a Prince song reimagined as grief. Cornell takes a pop ballad and turns it into something harrowing.",
+      listenFor: "The dynamic range of his voice — from a whisper to a full-power scream within the same phrase. On quality headphones, you'll hear the room mic picking up the guitar body resonance alongside his vocal.",
+      story: "Recorded live at SiriusXM studios in 2015, two years before his death. Prince wrote the original for The Family in 1985; Sinead O'Connor's version became iconic. Cornell's stripped-back live version might be the most emotionally devastating of them all.",
     },
   },
   {
@@ -179,13 +161,11 @@ export const playlist: Track[] = [
     genre: "Pop",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "6hrgeEo1WQOHVeF8QMv68S",
     programNotes: {
-      notes:
-        "Before 'Chandelier,' before the wig, Sia made this. Fragile, intimate, and almost uncomfortably close.",
-      listenFor:
-        "The vocal is mixed extremely close — almost inside your head. Strings enter gradually, building around her voice like a cocoon. On good headphones, the stereo spread of the string arrangement is breathtaking.",
-      story:
-        "Released in 2004, it became famous as the final song in the series finale of Six Feet Under. The placement was so perfect it essentially relaunched Sia's career.",
+      notes: "Before 'Chandelier,' before the wig, Sia made this. Fragile, intimate, and almost uncomfortably close.",
+      listenFor: "The vocal is mixed extremely close — almost inside your head. Strings enter gradually, building around her voice like a cocoon. On good headphones, the stereo spread of the string arrangement is breathtaking.",
+      story: "Released in 2004, it became famous as the final song in the series finale of Six Feet Under. The placement was so perfect it essentially relaunched Sia's career.",
     },
   },
   {
@@ -197,13 +177,11 @@ export const playlist: Track[] = [
     genre: "R&B/Soul",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "30FURVTCpbKyykjSEQzGkH",
     programNotes: {
-      notes:
-        "A 2006 track that sounds like it was recorded in 1963. Producer Mark Ronson built a Motown wall of sound around a voice that could have come from any decade.",
-      listenFor:
-        "The bass drum pattern and upright bass driving the Motown-inspired groove. Amy's vocal sits right on top — dry, close-mic'd, with almost no reverb. You can hear every grain of her voice.",
-      story:
-        "Ronson recorded the instrumental at Daptone Studios in Brooklyn with the Dap-Kings, the same musicians behind Sharon Jones. Amy tracked her vocals in a single afternoon.",
+      notes: "A 2006 track that sounds like it was recorded in 1963. Producer Mark Ronson built a Motown wall of sound around a voice that could have come from any decade.",
+      listenFor: "The bass drum pattern and upright bass driving the Motown-inspired groove. Amy's vocal sits right on top — dry, close-mic'd, with almost no reverb. You can hear every grain of her voice.",
+      story: "Ronson recorded the instrumental at Daptone Studios in Brooklyn with the Dap-Kings, the same musicians behind Sharon Jones. Amy tracked her vocals in a single afternoon.",
     },
   },
   {
@@ -215,13 +193,11 @@ export const playlist: Track[] = [
     genre: "Pop",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "3TqDgFpCwloJLDzwI2HG8U",
     programNotes: {
-      notes:
-        "After the intimacy of 'Breathe Me,' Sia returns with full power. The vocal range here is absurd — the chorus pushes into a register most singers can't touch.",
-      listenFor:
-        "The pre-chorus build: layers stack — piano, bass, drums — then the chorus detonates. On resolving headphones, each layer remains distinct even at peak volume.",
-      story:
-        "Sia originally wrote it for Rihanna, who passed. She recorded her own vocal as a demo and it was so good they kept it. The Maddie Ziegler music video has over 3 billion YouTube views.",
+      notes: "After the intimacy of 'Breathe Me,' Sia returns with full power. The vocal range here is absurd — the chorus pushes into a register most singers can't touch.",
+      listenFor: "The pre-chorus build: layers stack — piano, bass, drums — then the chorus detonates. On resolving headphones, each layer remains distinct even at peak volume.",
+      story: "Sia originally wrote it for Rihanna, who passed. She recorded her own vocal as a demo and it was so good they kept it. The Maddie Ziegler music video has over 3 billion YouTube views.",
     },
   },
   {
@@ -233,13 +209,11 @@ export const playlist: Track[] = [
     genre: "Hip-Hop",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "52riputZ4Vo5PG9MOSy6r5",
     programNotes: {
-      notes:
-        "Nate Dogg had one of the most recognizable voices in hip-hop — smooth, effortless, and impossibly warm. This is him leading instead of guesting.",
-      listenFor:
-        "His vocal layering — multiple takes of his own voice stacked and panned to create a chorus effect that's wider than the speakers. The bass sits deep and round underneath.",
-      story:
-        "From his 2001 solo album 'Music and Me.' Nate Dogg (Nathaniel Hale) was the secret weapon behind dozens of West Coast hip-hop classics before his death in 2011 at age 41.",
+      notes: "Nate Dogg had one of the most recognizable voices in hip-hop — smooth, effortless, and impossibly warm. This is him leading instead of guesting.",
+      listenFor: "His vocal layering — multiple takes of his own voice stacked and panned to create a chorus effect that's wider than the speakers. The bass sits deep and round underneath.",
+      story: "From his 2001 solo album 'Music and Me.' Nate Dogg (Nathaniel Hale) was the secret weapon behind dozens of West Coast hip-hop classics before his death in 2011 at age 41.",
     },
   },
   {
@@ -251,13 +225,11 @@ export const playlist: Track[] = [
     genre: "R&B",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "4oPNN7syJYSjzDhRerF966",
     programNotes: {
-      notes:
-        "Seven minutes of neo-soul that barely rises above a whisper. Everything is slightly behind the beat, slightly out of focus — and that's entirely intentional.",
-      listenFor:
-        "The rhythm section sits just behind the grid — the drums and bass are human, imperfect, and hypnotic. D'Angelo's multi-tracked vocals weave around each other. On good headphones, you'll hear at least four distinct vocal layers.",
-      story:
-        "Recorded during sessions for 'Voodoo' at Electric Lady Studios. The music video, featuring D'Angelo shirtless, became more famous than the song itself — which frustrated him deeply. The song is a masterpiece of feel over precision.",
+      notes: "Seven minutes of neo-soul that barely rises above a whisper. Everything is slightly behind the beat, slightly out of focus — and that's entirely intentional.",
+      listenFor: "The rhythm section sits just behind the grid — the drums and bass are human, imperfect, and hypnotic. D'Angelo's multi-tracked vocals weave around each other. On good headphones, you'll hear at least four distinct vocal layers.",
+      story: "Recorded during sessions for 'Voodoo' at Electric Lady Studios. The music video, featuring D'Angelo shirtless, became more famous than the song itself — which frustrated him deeply. The song is a masterpiece of feel over precision.",
     },
   },
   {
@@ -269,17 +241,15 @@ export const playlist: Track[] = [
     genre: "Alternative",
     chapter: "the-voice",
     side: "B",
+    spotifyId: "1CS7Sd1u5tWkstBhpssyjP",
     programNotes: {
-      notes:
-        "A gospel-structured protest song disguised as a love song. The dynamics — from the hushed verse to the thundering chorus — are designed to make you feel something in your body.",
-      listenFor:
-        "The transition from verse to chorus: the room opens up. Hozier's voice goes from intimate and breathy to full chest voice. The choir layers on the final chorus are mixed wide — they'll surround you.",
-      story:
-        "Andrew Hozier-Byrne recorded the demo in his parents' attic in County Wicklow, Ireland. The song references sexuality, mortality, and organized religion. It went viral off a self-released EP before any label deal.",
+      notes: "A gospel-structured protest song disguised as a love song. The dynamics — from the hushed verse to the thundering chorus — are designed to make you feel something in your body.",
+      listenFor: "The transition from verse to chorus: the room opens up. Hozier's voice goes from intimate and breathy to full chest voice. The choir layers on the final chorus are mixed wide — they'll surround you.",
+      story: "Andrew Hozier-Byrne recorded the demo in his parents' attic in County Wicklow, Ireland. The song references sexuality, mortality, and organized religion. It went viral off a self-released EP before any label deal.",
     },
   },
 
-  // Chapter: The Instrument — "Hearing things you've never heard before."
+  // Chapter: The Instrument
   {
     id: 16,
     title: "Vaseline Machine Gun",
@@ -289,13 +259,11 @@ export const playlist: Track[] = [
     genre: "Folk",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "6PHAN2CmhXNwxwfvGZ6aJL",
     programNotes: {
-      notes:
-        "One guy, one acoustic guitar, and technique that borders on inhuman. This is what happens when an instrument is pushed to its absolute limit.",
-      listenFor:
-        "Every individual string. On resolving headphones, you can track each finger independently — the bass line, the melody, and the rhythmic percussive hits on the body of the guitar all happening simultaneously.",
-      story:
-        "Recorded in 1969. Kottke was 23 and largely self-taught. His right-hand technique influenced generations of acoustic guitarists. He's joked about hating his own voice so much that he just plays instrumentals.",
+      notes: "One guy, one acoustic guitar, and technique that borders on inhuman. This is what happens when an instrument is pushed to its absolute limit.",
+      listenFor: "Every individual string. On resolving headphones, you can track each finger independently — the bass line, the melody, and the rhythmic percussive hits on the body of the guitar all happening simultaneously.",
+      story: "Recorded in 1969. Kottke was 23 and largely self-taught. His right-hand technique influenced generations of acoustic guitarists. He's joked about hating his own voice so much that he just plays instrumentals.",
     },
   },
   {
@@ -307,13 +275,11 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "0w0Zs8pu4wx9iErRMEG96L",
     programNotes: {
-      notes:
-        "Audiophile reference material. If you're testing headphones, this is the track audio engineers reach for. Every instrument is recorded, mixed, and mastered to perfection.",
-      listenFor:
-        "Steve Gadd's drum solo starting around the 4-minute mark — it's one of the most celebrated in recording history. The hi-hat detail, the snare tone, the way the kick drum locks with the bass. On planars, it's revelatory.",
-      story:
-        "Recorded in 1977 over multiple studios with multiple session musicians. Becker and Fagen were notorious perfectionists — they would hire and fire musicians mid-session until they got exactly the sound they heard in their heads. The album has been remastered multiple times and remains an audiophile standard.",
+      notes: "Audiophile reference material. If you're testing headphones, this is the track audio engineers reach for. Every instrument is recorded, mixed, and mastered to perfection.",
+      listenFor: "Steve Gadd's drum solo starting around the 4-minute mark — it's one of the most celebrated in recording history. The hi-hat detail, the snare tone, the way the kick drum locks with the bass. On planars, it's revelatory.",
+      story: "Recorded in 1977 over multiple studios with multiple session musicians. Becker and Fagen were notorious perfectionists — they would hire and fire musicians mid-session until they got exactly the sound they heard in their heads. The album has been remastered multiple times and remains an audiophile standard.",
     },
   },
   {
@@ -325,13 +291,11 @@ export const playlist: Track[] = [
     genre: "Classical",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "4jggSeOIIXdrIXrzrZOBVf",
     programNotes: {
-      notes:
-        "The first movement of Summer — ominous, tense, building toward a storm. The solo violin carries the narrative entirely.",
-      listenFor:
-        "Jansen's bow pressure and vibrato. On quality headphones, you can hear the rosin on the strings, the physical effort of the instrument. The ensemble responds to her dynamics in real time.",
-      story:
-        "Janine Jansen's 2004 recording with her handpicked ensemble breathed new life into a piece that's been performed millions of times. Her approach is aggressive and dramatic where most classical recordings are restrained.",
+      notes: "The first movement of Summer — ominous, tense, building toward a storm. The solo violin carries the narrative entirely.",
+      listenFor: "Jansen's bow pressure and vibrato. On quality headphones, you can hear the rosin on the strings, the physical effort of the instrument. The ensemble responds to her dynamics in real time.",
+      story: "Janine Jansen's 2004 recording with her handpicked ensemble breathed new life into a piece that's been performed millions of times. Her approach is aggressive and dramatic where most classical recordings are restrained.",
     },
   },
   {
@@ -343,13 +307,11 @@ export const playlist: Track[] = [
     genre: "Classical",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "2585tm5FEqfRzNskDHmu5q",
     programNotes: {
-      notes:
-        "Two minutes of tension. The slow section drips with heat exhaustion before the storm breaks. Vivaldi wrote this as program music — he was scoring weather.",
-      listenFor:
-        "The contrast between the languid Adagio and the sudden Presto eruption. The dynamic shift is enormous. Your headphones will tell you how fast they can respond to transients.",
-      story:
-        "Vivaldi published The Four Seasons in 1725 with accompanying sonnets that describe each movement's narrative. This movement depicts the oppressive heat of an Italian summer and the anxiety before a thunderstorm.",
+      notes: "Two minutes of tension. The slow section drips with heat exhaustion before the storm breaks. Vivaldi wrote this as program music — he was scoring weather.",
+      listenFor: "The contrast between the languid Adagio and the sudden Presto eruption. The dynamic shift is enormous. Your headphones will tell you how fast they can respond to transients.",
+      story: "Vivaldi published The Four Seasons in 1725 with accompanying sonnets that describe each movement's narrative. This movement depicts the oppressive heat of an Italian summer and the anxiety before a thunderstorm.",
     },
   },
   {
@@ -361,13 +323,11 @@ export const playlist: Track[] = [
     genre: "Classical",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "0Go4cVHryJLcpY2pZVkV3A",
     programNotes: {
-      notes:
-        "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",
-      listenFor:
-        "The speed of Jansen's bow work and the precision of the ensemble. On resolving headphones, even at this tempo, you can distinguish individual instruments. The bass section rumbles like distant thunder.",
-      story:
-        "The Presto finale represents the full fury of a summer thunderstorm. Vivaldi's tempo marking is essentially 'as fast as possible.' Jansen takes it at a pace that would make most violinists' hands cramp.",
+      notes: "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",
+      listenFor: "The speed of Jansen's bow work and the precision of the ensemble. On resolving headphones, even at this tempo, you can distinguish individual instruments. The bass section rumbles like distant thunder.",
+      story: "The Presto finale represents the full fury of a summer thunderstorm. Vivaldi's tempo marking is essentially 'as fast as possible.' Jansen takes it at a pace that would make most violinists' hands cramp.",
     },
   },
   {
@@ -379,18 +339,16 @@ export const playlist: Track[] = [
     genre: "World",
     chapter: "the-instrument",
     side: "B",
+    spotifyId: "5sbw5zIz9ck2pOEDXUR0QU",
     programNotes: {
-      notes:
-        "Acoustic instruments from another tradition entirely — gorgeous, warm, and recorded with a naturalness that makes you feel like you're sitting in the room.",
-      listenFor:
-        "The interplay between the guitar, tres (Cuban guitar), and bass. Each instrument has a distinct position in the stereo field. Compay Segundo's voice has a weathered warmth that good headphones will render beautifully.",
-      story:
-        "Recorded in Havana's EGREM studios in 1996 by Ry Cooder. The musicians — most in their 70s and 80s — had been largely forgotten. Compay Segundo wrote 'Chan Chan' when he was 89. The album won a Grammy and the documentary won an Oscar nomination.",
+      notes: "Acoustic instruments from another tradition entirely — gorgeous, warm, and recorded with a naturalness that makes you feel like you're sitting in the room.",
+      listenFor: "The interplay between the guitar, tres (Cuban guitar), and bass. Each instrument has a distinct position in the stereo field. Compay Segundo's voice has a weathered warmth that good headphones will render beautifully.",
+      story: "Recorded in Havana's EGREM studios in 1996 by Ry Cooder. The musicians — most in their 70s and 80s — had been largely forgotten. Compay Segundo wrote 'Chan Chan' when he was 89. The album won a Grammy and the documentary won an Oscar nomination.",
     },
   },
 
   // === SIDE C ===
-  // Chapter: The Mix — "How producers build a world inside your headphones."
+  // Chapter: The Mix
   {
     id: 22,
     title: "Money",
@@ -400,13 +358,11 @@ export const playlist: Track[] = [
     genre: "Classic Rock",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "0vFOzaXqZHahrZp6enQwQb",
     programNotes: {
-      notes:
-        "The opening is a production masterpiece — cash registers, coins, and paper built into a rhythmic loop that predates sampling by decades.",
-      listenFor:
-        "Close your eyes during the opening. The cash register sounds move from left to right to center. This is stereo panning used as art. The song is in 7/4 time — an unusual time signature that your brain adjusts to without consciously counting.",
-      story:
-        "Roger Waters assembled the cash register sounds from real objects, cut tape into loops, and synchronized them by hand. The song shifts from 7/4 to 4/4 for the guitar solo and back — most listeners never notice.",
+      notes: "The opening is a production masterpiece — cash registers, coins, and paper built into a rhythmic loop that predates sampling by decades.",
+      listenFor: "Close your eyes during the opening. The cash register sounds move from left to right to center. This is stereo panning used as art. The song is in 7/4 time — an unusual time signature that your brain adjusts to without consciously counting.",
+      story: "Roger Waters assembled the cash register sounds from real objects, cut tape into loops, and synchronized them by hand. The song shifts from 7/4 to 4/4 for the guitar solo and back — most listeners never notice.",
     },
   },
   {
@@ -418,13 +374,11 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "7tFiyTwD0nx5a1eklYtX2J",
     programNotes: {
-      notes:
-        "A six-minute track with no chorus that moves through ballad, opera, hard rock, and reflective coda. It shouldn't work. It's one of the most successful songs ever recorded.",
-      listenFor:
-        "During the operatic section, 180 vocal overdubs layered into a wall. On resolving headphones, those layers separate — you can hear individual voices within the mass. The stereo field during the 'Galileo' section is enormous.",
-      story:
-        "The 2011 remaster restored full dynamic range. Producer Roy Thomas Baker and the band spent three weeks on the operatic section alone. Mercury refused to explain the lyrics. When the label said it was too long for radio, he said 'it stays.'",
+      notes: "A six-minute track with no chorus that moves through ballad, opera, hard rock, and reflective coda. It shouldn't work. It's one of the most successful songs ever recorded.",
+      listenFor: "During the operatic section, 180 vocal overdubs layered into a wall. On resolving headphones, those layers separate — you can hear individual voices within the mass. The stereo field during the 'Galileo' section is enormous.",
+      story: "The 2011 remaster restored full dynamic range. Producer Roy Thomas Baker and the band spent three weeks on the operatic section alone. Mercury refused to explain the lyrics. When the label said it was too long for radio, he said 'it stays.'",
     },
   },
   {
@@ -436,13 +390,11 @@ export const playlist: Track[] = [
     genre: "Dance",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "2b5YXFjqymzBpiecHX0qx2",
     programNotes: {
-      notes:
-        "A love song from two robots. Warm, analog synths over a slow groove — this is bass texture as art. Under four minutes and emotionally perfect.",
-      listenFor:
-        "The bass — warm, enveloping, and rounded in a way that fills the low end without overwhelming it. On planars, the sub-bass content is physical. The vocoder vocal sits in its own space, slightly detached.",
-      story:
-        "From the 2001 album 'Discovery,' which was the soundtrack to the anime film 'Interstella 5555.' Daft Punk built the album from chopped disco and funk samples processed through analog gear. This is the album's quiet emotional center.",
+      notes: "A love song from two robots. Warm, analog synths over a slow groove — this is bass texture as art. Under four minutes and emotionally perfect.",
+      listenFor: "The bass — warm, enveloping, and rounded in a way that fills the low end without overwhelming it. On planars, the sub-bass content is physical. The vocoder vocal sits in its own space, slightly detached.",
+      story: "From the 2001 album 'Discovery,' which was the soundtrack to the anime film 'Interstella 5555.' Daft Punk built the album from chopped disco and funk samples processed through analog gear. This is the album's quiet emotional center.",
     },
   },
   {
@@ -454,13 +406,11 @@ export const playlist: Track[] = [
     genre: "Pop/Jazz",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "7pLuEMFougkSHXrPBtNxTR",
     programNotes: {
-      notes:
-        "Sade's voice floats above a mix that's impossibly smooth — saxophone, bass, and light percussion, all polished to a mirror finish. This is the definition of production elegance.",
-      listenFor:
-        "The saxophone placement in the stereo field — it moves. The bass is deep but restrained, and Sade's vocal has zero harshness. On quality headphones, the mix sounds like liquid.",
-      story:
-        "Released in 1984 from 'Diamond Life.' Sade (the band) was named after singer Sade Adu. The song was a global hit and remains one of the most perfectly mixed pop recordings of the 1980s. Producer Robin Millar captured a live-in-the-room warmth that was unusual for the era.",
+      notes: "Sade's voice floats above a mix that's impossibly smooth — saxophone, bass, and light percussion, all polished to a mirror finish. This is the definition of production elegance.",
+      listenFor: "The saxophone placement in the stereo field — it moves. The bass is deep but restrained, and Sade's vocal has zero harshness. On quality headphones, the mix sounds like liquid.",
+      story: "Released in 1984 from 'Diamond Life.' Sade (the band) was named after singer Sade Adu. The song was a global hit and remains one of the most perfectly mixed pop recordings of the 1980s. Producer Robin Millar captured a live-in-the-room warmth that was unusual for the era.",
     },
   },
   {
@@ -472,13 +422,11 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "1nFtiJxYdhtFfFtfXBv06s",
     programNotes: {
-      notes:
-        "The quietest track on Nevermind. Cobain's vocal is barely above a whisper, the cello adds a weight that's almost physical, and the whole thing sounds like it's being played inside a cardboard box.",
-      listenFor:
-        "The proximity effect on Cobain's vocal — he's singing so close to the mic that the low end of his voice is exaggerated. On good headphones, the cello and bass guitar merge into a single dark texture underneath.",
-      story:
-        "Cobain claimed he wrote it while living under a bridge in Aberdeen. Producer Butch Vig had trouble recording it because Cobain would barely sing above a whisper, so they tracked it in the control room rather than the live room. It experienced a massive revival after being featured in 'The Batman' (2022).",
+      notes: "The quietest track on Nevermind. Cobain's vocal is barely above a whisper, the cello adds a weight that's almost physical, and the whole thing sounds like it's being played inside a cardboard box.",
+      listenFor: "The proximity effect on Cobain's vocal — he's singing so close to the mic that the low end of his voice is exaggerated. On good headphones, the cello and bass guitar merge into a single dark texture underneath.",
+      story: "Cobain claimed he wrote it while living under a bridge in Aberdeen. Producer Butch Vig had trouble recording it because Cobain would barely sing above a whisper, so they tracked it in the control room rather than the live room. It experienced a massive revival after being featured in 'The Batman' (2022).",
     },
   },
   {
@@ -490,17 +438,15 @@ export const playlist: Track[] = [
     genre: "Rock",
     chapter: "the-mix",
     side: "C",
+    spotifyId: "2fQ2iALVbAZ7MkH6PaaIJ6",
     programNotes: {
-      notes:
-        "Zeppelin at their most atmospheric. John Paul Jones's electric piano drifts through the mix like fog, and the whole track feels submerged — dark, slow, and heavy.",
-      listenFor:
-        "The phasing effect on the vocal — Page ran Plant's voice through a Leslie speaker cabinet. The piano tone has a warble that fills the entire stereo field. Bonham's drums are buried in reverb but hit like hammers.",
-      story:
-        "From 'Houses of the Holy' (1973). Jones wrote the main riff and the arrangement — it was his showcase track. Became a live staple that often stretched past 20 minutes. Jimmy Page's guitar solo enters like a distant signal cutting through static.",
+      notes: "Zeppelin at their most atmospheric. John Paul Jones's electric piano drifts through the mix like fog, and the whole track feels submerged — dark, slow, and heavy.",
+      listenFor: "The phasing effect on the vocal — Page ran Plant's voice through a Leslie speaker cabinet. The piano tone has a warble that fills the entire stereo field. Bonham's drums are buried in reverb but hit like hammers.",
+      story: "From 'Houses of the Holy' (1973). Jones wrote the main riff and the arrangement — it was his showcase track. Became a live staple that often stretched past 20 minutes. Jimmy Page's guitar solo enters like a distant signal cutting through static.",
     },
   },
 
-  // Chapter: The Build — "Tension, patience, and release."
+  // Chapter: The Build
   {
     id: 28,
     title: "No Woman, No Cry (Live 1975)",
@@ -510,13 +456,11 @@ export const playlist: Track[] = [
     genre: "Reggae",
     chapter: "the-build",
     side: "C",
+    spotifyId: "423hwXFgoN8RYmqLoLuVvY",
     programNotes: {
-      notes:
-        "The definitive version. Seven minutes of slow build — from gentle organ and voice to a full-band anthem. This is patience rewarded.",
-      listenFor:
-        "Carlton Barrett's kick drum and the bass line. On planars, the reggae bass sits in a frequency range that most pop doesn't touch — deep, round, and propulsive without being aggressive.",
-      story:
-        "Recorded at the Lyceum Theatre in London using the Rolling Stones' mobile studio. The original studio version was shorter, built on a drum machine. Within nine months, the live version had grown into something much bigger and bolder. Every major Bob Marley compilation uses the live version, not the studio original.",
+      notes: "The definitive version. Seven minutes of slow build — from gentle organ and voice to a full-band anthem. This is patience rewarded.",
+      listenFor: "Carlton Barrett's kick drum and the bass line. On planars, the reggae bass sits in a frequency range that most pop doesn't touch — deep, round, and propulsive without being aggressive.",
+      story: "Recorded at the Lyceum Theatre in London using the Rolling Stones' mobile studio. The original studio version was shorter, built on a drum machine. Within nine months, the live version had grown into something much bigger and bolder. Every major Bob Marley compilation uses the live version, not the studio original.",
     },
   },
   {
@@ -528,13 +472,11 @@ export const playlist: Track[] = [
     genre: "Electronic",
     chapter: "the-build",
     side: "C",
+    spotifyId: "67Hna13dNDkZvBpTXRIaOJ",
     programNotes: {
-      notes:
-        "Trip-hop perfection. A harpsichord sample, a heartbeat pulse, and Elizabeth Fraser's otherworldly vocal floating above a bass that vibrates in your chest.",
-      listenFor:
-        "The sub-bass pulse that runs through the entire track — it's a heartbeat. On quality headphones, it's physical, not just audible. Fraser's vocal is mixed with heavy reverb and delay, creating a sense of vast space.",
-      story:
-        "From 'Mezzanine' (1998). Elizabeth Fraser (Cocteau Twins) recorded her vocal while grieving the death of Jeff Buckley. Madonna wanted to sing on it but the band chose Fraser. Became the theme for TV's 'House M.D.' in the US.",
+      notes: "Trip-hop perfection. A harpsichord sample, a heartbeat pulse, and Elizabeth Fraser's otherworldly vocal floating above a bass that vibrates in your chest.",
+      listenFor: "The sub-bass pulse that runs through the entire track — it's a heartbeat. On quality headphones, it's physical, not just audible. Fraser's vocal is mixed with heavy reverb and delay, creating a sense of vast space.",
+      story: "From 'Mezzanine' (1998). Elizabeth Fraser (Cocteau Twins) recorded her vocal while grieving the death of Jeff Buckley. Madonna wanted to sing on it but the band chose Fraser. Became the theme for TV's 'House M.D.' in the US.",
     },
   },
   {
@@ -546,13 +488,11 @@ export const playlist: Track[] = [
     genre: "Electronic",
     chapter: "the-build",
     side: "C",
+    spotifyId: "3Ty7OTBNSigGEpeW2PqcsC",
     programNotes: {
-      notes:
-        "Beth Gibbons' voice over a sample from Isaac Hayes, scratched vinyl textures, and a guitar riff that smolders. This is Bristol trip-hop at its peak.",
-      listenFor:
-        "The vinyl crackle that runs underneath — it's intentional texture, not noise. The bass is sparse but massive. The guitar solo in the second half is raw and emotional against the electronic backdrop.",
-      story:
-        "From 'Dummy' (1994). Built on a sample from Isaac Hayes' 'Ike's Rap II.' Geoff Barrow produced it with turntable scratches and live instrumentation blended seamlessly. Portishead essentially disappeared after their second album, making their small catalog even more precious.",
+      notes: "Beth Gibbons' voice over a sample from Isaac Hayes, scratched vinyl textures, and a guitar riff that smolders. This is Bristol trip-hop at its peak.",
+      listenFor: "The vinyl crackle that runs underneath — it's intentional texture, not noise. The bass is sparse but massive. The guitar solo in the second half is raw and emotional against the electronic backdrop.",
+      story: "From 'Dummy' (1994). Built on a sample from Isaac Hayes' 'Ike's Rap II.' Geoff Barrow produced it with turntable scratches and live instrumentation blended seamlessly. Portishead essentially disappeared after their second album, making their small catalog even more precious.",
     },
   },
   {
@@ -564,13 +504,11 @@ export const playlist: Track[] = [
     genre: "Alternative",
     chapter: "the-build",
     side: "C",
+    spotifyId: "31DVVa40JpTudyGDNC1ROW",
     programNotes: {
-      notes:
-        "The opening of Kid A — Radiohead's deliberate destruction of everything that made them famous. Synths, chopped vocals, and a refusal to do what anyone expected.",
-      listenFor:
-        "Vocal fragments buried in layers that sound like synths but are actually Thom Yorke's voice cut into pieces. On planars, you'll hear at least three distinct vocal textures happening simultaneously.",
-      story:
-        "Thom Yorke recorded vocals, then chopped and manipulated them into stuttering, glitchy textures. After the massive success of 'OK Computer,' the band had a collective nervous breakdown. Kid A was the result — no singles, no music videos, no guitar solos. It won the Grammy for Album of the Year.",
+      notes: "The opening of Kid A — Radiohead's deliberate destruction of everything that made them famous. Synths, chopped vocals, and a refusal to do what anyone expected.",
+      listenFor: "Vocal fragments buried in layers that sound like synths but are actually Thom Yorke's voice cut into pieces. On planars, you'll hear at least three distinct vocal textures happening simultaneously.",
+      story: "Thom Yorke recorded vocals, then chopped and manipulated them into stuttering, glitchy textures. After the massive success of 'OK Computer,' the band had a collective nervous breakdown. Kid A was the result — no singles, no music videos, no guitar solos. It won the Grammy for Album of the Year.",
     },
   },
   {
@@ -582,17 +520,15 @@ export const playlist: Track[] = [
     genre: "Ambient",
     chapter: "the-build",
     side: "C",
+    spotifyId: "1vgSaC0BPlL6LEm4Xsx59J",
     programNotes: {
-      notes:
-        "About four minutes and emotionally devastating in its simplicity. Layers of synth that build and swell like breathing. Used in countless films and documentaries.",
-      listenFor:
-        "The way each synth layer enters — almost imperceptibly. There's no rhythm, no melody in the traditional sense. Your headphones will reveal how many individual layers are actually present. On good gear, you'll count at least six.",
-      story:
-        "Composed for a 1983 documentary about the Apollo moon missions. Eno, along with his brother Roger and Daniel Lanois, created a soundtrack that captures the awe and loneliness of space. This track has been licensed for films, TV, and memorials ever since.",
+      notes: "About four minutes and emotionally devastating in its simplicity. Layers of synth that build and swell like breathing. Used in countless films and documentaries.",
+      listenFor: "The way each synth layer enters — almost imperceptibly. There's no rhythm, no melody in the traditional sense. Your headphones will reveal how many individual layers are actually present. On good gear, you'll count at least six.",
+      story: "Composed for a 1983 documentary about the Apollo moon missions. Eno, along with his brother Roger and Daniel Lanois, created a soundtrack that captures the awe and loneliness of space. This track has been licensed for films, TV, and memorials ever since.",
     },
   },
 
-  // Chapter: The Groove — "Rhythm, bass, and the body."
+  // Chapter: The Groove
   {
     id: 33,
     title: "The Chain",
@@ -601,14 +537,12 @@ export const playlist: Track[] = [
     duration: "4:30",
     genre: "Rock",
     chapter: "the-groove",
-    side: "C",
+    side: "D",
+    spotifyId: "5e9TFTbltYBg2xThimr0rU",
     programNotes: {
-      notes:
-        "The only song on Rumours written by all five members. Assembled from fragments of different jam sessions while two couples in the band were breaking up.",
-      listenFor:
-        "That bass line entrance — on quality headphones, John McVie's bass doesn't just arrive, it physically shifts the weight of the entire mix. The transition from the quiet verse to the full-band finale is one of the greatest builds in rock.",
-      story:
-        "Pieced together from separate sessions — the opening was from one jam, the bass riff from another, the vocals from a third. It's the only Rumours track credited to all five members because no single songwriter could claim ownership. It became the theme for Formula 1 coverage in the UK.",
+      notes: "The only song on Rumours written by all five members. Assembled from fragments of different jam sessions while two couples in the band were breaking up.",
+      listenFor: "That bass line entrance — on quality headphones, John McVie's bass doesn't just arrive, it physically shifts the weight of the entire mix. The transition from the quiet verse to the full-band finale is one of the greatest builds in rock.",
+      story: "Pieced together from separate sessions — the opening was from one jam, the bass riff from another, the vocals from a third. It's the only Rumours track credited to all five members because no single songwriter could claim ownership. It became the theme for Formula 1 coverage in the UK.",
     },
   },
   {
@@ -619,14 +553,12 @@ export const playlist: Track[] = [
     duration: "4:31",
     genre: "Hip-Hop",
     chapter: "the-groove",
-    side: "C",
+    side: "D",
+    spotifyId: "503OTo2dSqe7qk76rgsbep",
     programNotes: {
-      notes:
-        "That piano riff is one of the most iconic in hip-hop. Dre's production is clean, heavy, and deceptively simple — every element has space to breathe.",
-      listenFor:
-        "The sub-bass. On planars, it doesn't just thump — it sustains and resonates. The piano is panned slightly and the hi-hats have a crispness that cuts through the low end without competing.",
-      story:
-        "From '2001' (1999). The piano riff was actually written by Scott Storch, then a relatively unknown session musician. Dre's return album after years away from solo work. The beat is a clinic in West Coast production — minimal elements, maximum impact.",
+      notes: "That piano riff is one of the most iconic in hip-hop. Dre's production is clean, heavy, and deceptively simple — every element has space to breathe.",
+      listenFor: "The sub-bass. On planars, it doesn't just thump — it sustains and resonates. The piano is panned slightly and the hi-hats have a crispness that cuts through the low end without competing.",
+      story: "From '2001' (1999). The piano riff was actually written by Scott Storch, then a relatively unknown session musician. Dre's return album after years away from solo work. The beat is a clinic in West Coast production — minimal elements, maximum impact.",
     },
   },
   {
@@ -637,14 +569,12 @@ export const playlist: Track[] = [
     duration: "4:25",
     genre: "Hip-Hop",
     chapter: "the-groove",
-    side: "C",
+    side: "D",
+    spotifyId: "3Ti0GdlrotgwsAVBBugv0I",
     programNotes: {
-      notes:
-        "Built on a Lou Reed bass line ('Walk on the Wild Side'), this is sampling elevated to art. The groove is irresistible and the production is warm and organic.",
-      listenFor:
-        "The bass sample — thick, round, and sitting right in the center. The drum break has a swing that's impossible to program. Q-Tip's flow rides the beat with an ease that sounds casual but is surgically precise.",
-      story:
-        "From 'People's Instinctive Travels and the Paths of Rhythm' (1990). The Lou Reed sample was cleared for a flat fee — Tribe signed away most of their royalties for it. A Tribe Called Quest, along with De La Soul, defined the alternative hip-hop sound of the early '90s.",
+      notes: "Built on a Lou Reed bass line ('Walk on the Wild Side'), this is sampling elevated to art. The groove is irresistible and the production is warm and organic.",
+      listenFor: "The bass sample — thick, round, and sitting right in the center. The drum break has a swing that's impossible to program. Q-Tip's flow rides the beat with an ease that sounds casual but is surgically precise.",
+      story: "From 'People's Instinctive Travels and the Paths of Rhythm' (1990). The Lou Reed sample was cleared for a flat fee — Tribe signed away most of their royalties for it. A Tribe Called Quest, along with De La Soul, defined the alternative hip-hop sound of the early '90s.",
     },
   },
   {
@@ -655,14 +585,12 @@ export const playlist: Track[] = [
     duration: "4:33",
     genre: "Hip-Hop",
     chapter: "the-groove",
-    side: "C",
+    side: "D",
+    spotifyId: "5vIu19A3EEdHgFM4Cba6F4",
     programNotes: {
-      notes:
-        "Bay Area hyphy meets trunk-rattling bass. E-40 has been innovating in hip-hop since the late '80s, and this track is pure groove — head-nodding, unavoidable bass weight.",
-      listenFor:
-        "The 808 kick drum — it's pitched low and sustained long, designed for car subwoofers. On planars, you'll feel it in a way earbuds can't reproduce. The snap of the snare is crisp and sits perfectly against the bass.",
-      story:
-        "Released in 2014 from 'Sharp On All 4 Corners.' E-40 (Earl Stevens) is one of hip-hop's great independents — he's been self-releasing music from Vallejo, California since 1988. 'Choices' became a viral sensation and is his most streamed track.",
+      notes: "Bay Area hyphy meets trunk-rattling bass. E-40 has been innovating in hip-hop since the late '80s, and this track is pure groove — head-nodding, unavoidable bass weight.",
+      listenFor: "The 808 kick drum — it's pitched low and sustained long, designed for car subwoofers. On planars, you'll feel it in a way earbuds can't reproduce. The snap of the snare is crisp and sits perfectly against the bass.",
+      story: "Released in 2014 from 'Sharp On All 4 Corners.' E-40 (Earl Stevens) is one of hip-hop's great independents — he's been self-releasing music from Vallejo, California since 1988. 'Choices' became a viral sensation and is his most streamed track.",
     },
   },
   {
@@ -673,19 +601,17 @@ export const playlist: Track[] = [
     duration: "5:14",
     genre: "Hard Rock",
     chapter: "the-groove",
-    side: "C",
+    side: "D",
+    spotifyId: "59WN2psjkt1tyaxjspN8fp",
     programNotes: {
-      notes:
-        "Tom Morello's guitar sounds like a machine — because he's using the instrument as a percussion weapon as much as a melodic one. The groove is relentless.",
-      listenFor:
-        "Morello's techniques — the kill switch stutters, the whammy pedal squeals, the wah-wah funk. On quality headphones, his guitar is panned wide while Tim Commerford's bass anchors the center with a tone that rattles.",
-      story:
-        "From their 1992 self-titled debut. Produced by GGGarth Richardson. The band became a political lightning rod — the song was famously played on repeat by a UK campaign that made it the 2009 Christmas number one, beating the X Factor winner.",
+      notes: "Tom Morello's guitar sounds like a machine — because he's using the instrument as a percussion weapon as much as a melodic one. The groove is relentless.",
+      listenFor: "Morello's techniques — the kill switch stutters, the whammy pedal squeals, the wah-wah funk. On quality headphones, his guitar is panned wide while Tim Commerford's bass anchors the center with a tone that rattles.",
+      story: "From their 1992 self-titled debut. Produced by GGGarth Richardson. The band became a political lightning rod — the song was famously played on repeat by a UK campaign that made it the 2009 Christmas number one, beating the X Factor winner.",
     },
   },
 
-  // === SIDE D ===
-  // Chapter: The Mood — "Atmosphere and texture."
+  // === SIDE E ===
+  // Chapter: The Mood
   {
     id: 38,
     title: "Kashmir",
@@ -694,14 +620,12 @@ export const playlist: Track[] = [
     duration: "8:37",
     genre: "Rock",
     chapter: "the-mood",
-    side: "D",
+    side: "E",
+    spotifyId: "6Vjk8MNXpQpi0F4BefdTyq",
     programNotes: {
-      notes:
-        "Zeppelin's most cinematic track. The orchestra, the droning riff, the sheer scale of it — this isn't a song, it's a landscape.",
-      listenFor:
-        "The string and brass orchestration layered against Page's guitar riff. They're in different time feels — the guitars are in standard time while the strings sway. On headphones, the orchestra wraps around the riff like a second sky.",
-      story:
-        "Written by Page and Plant, inspired by a drive through the Sahara Desert (not Kashmir). Bonham's drums are in a different time signature from the guitar riff — the tension between them is what gives the track its hypnotic, propulsive quality. Plant has called it his favorite Zeppelin song.",
+      notes: "Zeppelin's most cinematic track. The orchestra, the droning riff, the sheer scale of it — this isn't a song, it's a landscape.",
+      listenFor: "The string and brass orchestration layered against Page's guitar riff. They're in different time feels — the guitars are in standard time while the strings sway. On headphones, the orchestra wraps around the riff like a second sky.",
+      story: "Written by Page and Plant, inspired by a drive through the Sahara Desert (not Kashmir). Bonham's drums are in a different time signature from the guitar riff — the tension between them is what gives the track its hypnotic, propulsive quality. Plant has called it his favorite Zeppelin song.",
     },
   },
   {
@@ -712,14 +636,12 @@ export const playlist: Track[] = [
     duration: "3:14",
     genre: "Alternative",
     chapter: "the-mood",
-    side: "D",
+    side: "E",
+    spotifyId: "2Fxmhks0bxGSBdJ92vM42m",
     programNotes: {
-      notes:
-        "Made in a bedroom by a teenager and her brother. The bass is absurdly heavy for a pop song, the vocal is ASMR-quiet, and the whole thing is a masterclass in modern minimalist production.",
-      listenFor:
-        "The sub-bass drop — it's tuned to hit frequencies most pop producers avoid. On planars, it's chest-rattling. Billie's vocal is whispered, dry, and uncomfortably close. The contrast between the quiet vocal and massive bass is the entire point.",
-      story:
-        "Produced by Finneas O'Connell in his childhood bedroom in Highland Park, Los Angeles. Won Record of the Year at the 2020 Grammys. The final section (after the 'duh') was added last-minute and became the most iconic part.",
+      notes: "Made in a bedroom by a teenager and her brother. The bass is absurdly heavy for a pop song, the vocal is ASMR-quiet, and the whole thing is a masterclass in modern minimalist production.",
+      listenFor: "The sub-bass drop — it's tuned to hit frequencies most pop producers avoid. On planars, it's chest-rattling. Billie's vocal is whispered, dry, and uncomfortably close. The contrast between the quiet vocal and massive bass is the entire point.",
+      story: "Produced by Finneas O'Connell in his childhood bedroom in Highland Park, Los Angeles. Won Record of the Year at the 2020 Grammys. The final section (after the 'duh') was added last-minute and became the most iconic part.",
     },
   },
   {
@@ -730,14 +652,12 @@ export const playlist: Track[] = [
     duration: "2:54",
     genre: "Alternative",
     chapter: "the-mood",
-    side: "D",
+    side: "E",
+    spotifyId: "3Rlhwkx64BqwcbwPc5AE6E",
     programNotes: {
-      notes:
-        "If 'bad guy' was the blueprint, this is the refinement. Sparser, punchier, and with a swagger that the bass line drives entirely.",
-      listenFor:
-        "The kick drum and bass interaction — they lock together in a way that creates a pocket of air between hits. On good headphones, the silence between beats is as intentional as the sounds.",
-      story:
-        "Released in 2020 as a single from 'Happier Than Ever.' The music video was shot by Billie herself in an empty mall during the pandemic. Finneas produced it with the same bedroom setup, proving the debut wasn't a fluke.",
+      notes: "If 'bad guy' was the blueprint, this is the refinement. Sparser, punchier, and with a swagger that the bass line drives entirely.",
+      listenFor: "The kick drum and bass interaction — they lock together in a way that creates a pocket of air between hits. On good headphones, the silence between beats is as intentional as the sounds.",
+      story: "Released in 2020 as a single from 'Happier Than Ever.' The music video was shot by Billie herself in an empty mall during the pandemic. Finneas produced it with the same bedroom setup, proving the debut wasn't a fluke.",
     },
   },
   {
@@ -748,14 +668,12 @@ export const playlist: Track[] = [
     duration: "4:34",
     genre: "Dance",
     chapter: "the-mood",
-    side: "D",
+    side: "E",
+    spotifyId: "2P2C42EgrHsdLs1gCmfhkJ",
     programNotes: {
-      notes:
-        "Tropical house done right. The plucked synth melody is immediately recognizable, and Conrad Sewell's vocal gives it a warmth that elevates it above the genre.",
-      listenFor:
-        "The signature Kygo pluck sound — a marimba-like synth that's panned wide with subtle delay. The drop is gentle rather than aggressive, and the low end is clean and controlled.",
-      story:
-        "Released in 2014 when Kygo was 23 and essentially invented the 'tropical house' subgenre. Conrad Sewell's vocal was recorded in a single session. The track helped make Kygo one of the fastest artists to reach 1 billion Spotify streams.",
+      notes: "Tropical house done right. The plucked synth melody is immediately recognizable, and Conrad Sewell's vocal gives it a warmth that elevates it above the genre.",
+      listenFor: "The signature Kygo pluck sound — a marimba-like synth that's panned wide with subtle delay. The drop is gentle rather than aggressive, and the low end is clean and controlled.",
+      story: "Released in 2014 when Kygo was 23 and essentially invented the 'tropical house' subgenre. Conrad Sewell's vocal was recorded in a single session. The track helped make Kygo one of the fastest artists to reach 1 billion Spotify streams.",
     },
   },
   {
@@ -766,18 +684,16 @@ export const playlist: Track[] = [
     duration: "3:53",
     genre: "Electronic",
     chapter: "the-mood",
-    side: "D",
+    side: "E",
+    spotifyId: "5WI2ltQIdwgzf1SNE76JyR",
     programNotes: {
-      notes:
-        "Flume's signature sound — glitchy, textured electronic production wrapped around a pop vocal. The drops don't follow EDM convention; they stutter and fragment.",
-      listenFor:
-        "The vocal chops and glitch effects around Kai's voice — Flume treats the vocal as an instrument to be manipulated, not just a melody carrier. The bass in the chorus is distorted and wide.",
-      story:
-        "From 'Skin' (2016), which won the ARIA Album of the Year. Harley Streten (Flume) was 24 and had already redefined what electronic music could sound like in a pop context. He's from Sydney, Australia.",
+      notes: "Flume's signature sound — glitchy, textured electronic production wrapped around a pop vocal. The drops don't follow EDM convention; they stutter and fragment.",
+      listenFor: "The vocal chops and glitch effects around Kai's voice — Flume treats the vocal as an instrument to be manipulated, not just a melody carrier. The bass in the chorus is distorted and wide.",
+      story: "From 'Skin' (2016), which won the ARIA Album of the Year. Harley Streten (Flume) was 24 and had already redefined what electronic music could sound like in a pop context. He's from Sydney, Australia.",
     },
   },
 
-  // Chapter: The Machine — "What happens when humans and technology merge."
+  // Chapter: The Machine
   {
     id: 43,
     title: "Feel Good Inc.",
@@ -786,14 +702,12 @@ export const playlist: Track[] = [
     duration: "3:41",
     genre: "Alternative",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "0d28khcov6AiegSCpG5TuT",
     programNotes: {
-      notes:
-        "A virtual band created by Damon Albarn and Jamie Hewlett — the concept itself is about the line between human and machine. The production layers hip-hop, rock, and melancholy into something unlike anything else.",
-      listenFor:
-        "The laugh that opens the track — recorded through a cheap mic intentionally to sound lo-fi against the polished production. De La Soul's energy on the chorus versus Albarn's melancholy verses creates a tension between party and despair.",
-      story:
-        "Damon Albarn recorded the melancholy verses in a completely different session from De La Soul's party energy on the chorus. The animated music video won a Grammy. The juxtaposition — cartoon characters delivering emotionally complex music — was the entire point of the Gorillaz project.",
+      notes: "A virtual band created by Damon Albarn and Jamie Hewlett — the concept itself is about the line between human and machine. The production layers hip-hop, rock, and melancholy into something unlike anything else.",
+      listenFor: "The laugh that opens the track — recorded through a cheap mic intentionally to sound lo-fi against the polished production. De La Soul's energy on the chorus versus Albarn's melancholy verses creates a tension between party and despair.",
+      story: "Damon Albarn recorded the melancholy verses in a completely different session from De La Soul's party energy on the chorus. The animated music video won a Grammy. The juxtaposition — cartoon characters delivering emotionally complex music — was the entire point of the Gorillaz project.",
     },
   },
   {
@@ -804,14 +718,12 @@ export const playlist: Track[] = [
     duration: "5:12",
     genre: "Rock",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "3wLZ69kr5J2sb934Kpv02c",
     programNotes: {
-      notes:
-        "Gabriel was obsessed with sounds nobody had heard before. Every element of this track was an experiment in merging acoustic instruments with early digital technology.",
-      listenFor:
-        "The intro is a Shakuhachi flute sampled through a Fairlight CMI, one of the first digital samplers ever made. The brass stabs, the Synclavier bass, the layered backing vocals — every sound was processed through gear that barely existed.",
-      story:
-        "From 'So' (1986). The stop-motion music video took weeks to film and is the most-played video in MTV history. Gabriel lay under a glass sheet for 16 hours while animators moved objects frame by frame above him.",
+      notes: "Gabriel was obsessed with sounds nobody had heard before. Every element of this track was an experiment in merging acoustic instruments with early digital technology.",
+      listenFor: "The intro is a Shakuhachi flute sampled through a Fairlight CMI, one of the first digital samplers ever made. The brass stabs, the Synclavier bass, the layered backing vocals — every sound was processed through gear that barely existed.",
+      story: "From 'So' (1986). The stop-motion music video took weeks to film and is the most-played video in MTV history. Gabriel lay under a glass sheet for 16 hours while animators moved objects frame by frame above him.",
     },
   },
   {
@@ -822,14 +734,12 @@ export const playlist: Track[] = [
     duration: "9:05",
     genre: "Pop",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "0oks4FnzhNp5QPTZtoet7c",
     programNotes: {
-      notes:
-        "A spoken-word history of electronic music inside an electronic track. It's a 9-minute epic that transitions from disco to jazz-fusion to full-blown electronic odyssey.",
-      listenFor:
-        "The transitions between sections — each one introduces new instruments and production techniques. The modular synthesizer solo in the second half is Daft Punk letting their machines loose. The dynamic range is enormous.",
-      story:
-        "Giorgio Moroder narrates his own life story — from Italy to Munich to inventing disco production. Daft Punk recorded it with live musicians at Henson Recording Studios (formerly A&M, where the Carpenters recorded). The track is a love letter to the man who made electronic dance music possible.",
+      notes: "A spoken-word history of electronic music inside an electronic track. It's a 9-minute epic that transitions from disco to jazz-fusion to full-blown electronic odyssey.",
+      listenFor: "The transitions between sections — each one introduces new instruments and production techniques. The modular synthesizer solo in the second half is Daft Punk letting their machines loose. The dynamic range is enormous.",
+      story: "Giorgio Moroder narrates his own life story — from Italy to Munich to inventing disco production. Daft Punk recorded it with live musicians at Henson Recording Studios (formerly A&M, where the Carpenters recorded). The track is a love letter to the man who made electronic dance music possible.",
     },
   },
   {
@@ -840,14 +750,12 @@ export const playlist: Track[] = [
     duration: "4:28",
     genre: "Electronic",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "7569Hbv0FUS7vjkdGvdgeZ",
     programNotes: {
-      notes:
-        "Dubstep at its most melodic and aggressive simultaneously. The original track reimagined with Skrillex's signature bass design — heavy, distorted, and surgically precise.",
-      listenFor:
-        "The bass drops — they're not just loud, they're textured. On planars, you'll hear the growl and modulation within what initially sounds like a wall of noise. The vocal floats above the chaos untouched.",
-      story:
-        "Nero's original 'Promises' was a UK number one. The Skrillex remix turned it into a dancefloor weapon. Skrillex (Sonny Moore) was a former post-hardcore vocalist who became the most polarizing figure in electronic music — people either loved or hated what he did to bass.",
+      notes: "Dubstep at its most melodic and aggressive simultaneously. The original track reimagined with Skrillex's signature bass design — heavy, distorted, and surgically precise.",
+      listenFor: "The bass drops — they're not just loud, they're textured. On planars, you'll hear the growl and modulation within what initially sounds like a wall of noise. The vocal floats above the chaos untouched.",
+      story: "Nero's original 'Promises' was a UK number one. The Skrillex remix turned it into a dancefloor weapon. Skrillex (Sonny Moore) was a former post-hardcore vocalist who became the most polarizing figure in electronic music — people either loved or hated what he did to bass.",
     },
   },
   {
@@ -858,14 +766,12 @@ export const playlist: Track[] = [
     duration: "3:21",
     genre: "Electronic",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "2A3emhzbZo7eSvEUtAm3ZS",
     programNotes: {
-      notes:
-        "French electro-house that sounds like a rock band. The distorted bass synth, the compressed drums, and the sheer wall of energy — Justice made electronic music feel physical.",
-      listenFor:
-        "The distortion — it's everywhere, and it's intentional. The bass synth clips and overdrives in a way that would be a mistake in any other genre. On quality headphones, you can hear the individual harmonics within the distortion.",
-      story:
-        "From Justice's 2007 self-titled debut (stylized as '†'). Gaspard Augé and Xavier de Rosnay produced it as a sequel to their breakout 'Phantom, Pt. I.' The album was recorded with no live instruments — everything is synthesized, sampled, and distorted beyond recognition.",
+      notes: "French electro-house that sounds like a rock band. The distorted bass synth, the compressed drums, and the sheer wall of energy — Justice made electronic music feel physical.",
+      listenFor: "The distortion — it's everywhere, and it's intentional. The bass synth clips and overdrives in a way that would be a mistake in any other genre. On quality headphones, you can hear the individual harmonics within the distortion.",
+      story: "From Justice's 2007 self-titled debut (stylized as '\u2020'). Gaspard Aug\u00e9 and Xavier de Rosn\u00e9 produced it as a sequel to their breakout 'Phantom, Pt. I.' The album was recorded with no live instruments — everything is synthesized, sampled, and distorted beyond recognition.",
     },
   },
   {
@@ -876,18 +782,16 @@ export const playlist: Track[] = [
     duration: "10:37",
     genre: "Electronic",
     chapter: "the-machine",
-    side: "D",
+    side: "E",
+    spotifyId: "58wDfZrOByUJpigigbi34A",
     programNotes: {
-      notes:
-        "A 10-minute emotional arc built from digital synthesis. Patient, beautiful, and proof that electronic music can be as moving as any orchestral piece.",
-      listenFor:
-        "At 2:35, a white noise sweep enters — a filtered noise riser used as a transition tool. On resolving headphones, you'll hear it clearly for possibly the first time. It sounds digital and processed because it is — generated inside a software synth in 2009. The build is glacial and the payoff is immense.",
-      story:
-        "Deadmau5 originally didn't want to release it. His tour manager Harvey Taman repeatedly urged him to include it on the album. He relented with limited options, and it became his most successful song. Billboard Dance named it his best track of all time.",
+      notes: "A 10-minute emotional arc built from digital synthesis. Patient, beautiful, and proof that electronic music can be as moving as any orchestral piece.",
+      listenFor: "At 2:35, a white noise sweep enters — a filtered noise riser used as a transition tool. On resolving headphones, you'll hear it clearly for possibly the first time. It sounds digital and processed because it is — generated inside a software synth in 2009. The build is glacial and the payoff is immense.",
+      story: "Deadmau5 originally didn't want to release it. His tour manager Harvey Taman repeatedly urged him to include it on the album. He relented with limited options, and it became his most successful song. Billboard Dance named it his best track of all time.",
     },
   },
 
-  // Chapter: The Wall — "When sound becomes overwhelming and intentional."
+  // Chapter: The Wall
   {
     id: 49,
     title: "Only Shallow",
@@ -896,14 +800,12 @@ export const playlist: Track[] = [
     duration: "3:41",
     genre: "Alternative",
     chapter: "the-wall",
-    side: "D",
+    side: "F",
+    spotifyId: "52UcjsM15hjCQAUbTW2hy1",
     programNotes: {
-      notes:
-        "This is the loudest, most disorienting track on the list — and it's intentional. Shoegaze at its most extreme. The guitar is a wall of noise with a melody hiding inside it.",
-      listenFor:
-        "The melody is buried under the wall of guitar on purpose. The headphones will find it if you give them the volume. Play it louder than you think you should. On planars, the layers of guitar feedback separate into individual textures.",
-      story:
-        "From 'Loveless' (1991), which took two years and allegedly cost Creation Records £250,000 — nearly bankrupting the label. Kevin Shields used a tremolo arm technique during recording — physically bending notes while strumming — to create the signature MBV sound. The 2012 remaster is preferred.",
+      notes: "This is the loudest, most disorienting track on the list — and it's intentional. Shoegaze at its most extreme. The guitar is a wall of noise with a melody hiding inside it.",
+      listenFor: "The melody is buried under the wall of guitar on purpose. The headphones will find it if you give them the volume. Play it louder than you think you should. On planars, the layers of guitar feedback separate into individual textures.",
+      story: "From 'Loveless' (1991), which took two years and allegedly cost Creation Records \u00a3250,000 — nearly bankrupting the label. Kevin Shields used a tremolo arm technique during recording — physically bending notes while strumming — to create the signature MBV sound. The 2012 remaster is preferred.",
     },
   },
   {
@@ -914,14 +816,12 @@ export const playlist: Track[] = [
     duration: "9:25",
     genre: "Metal",
     chapter: "the-wall",
-    side: "D",
+    side: "F",
+    spotifyId: "7tvuLLroI0n6uYBWuFig5d",
     programNotes: {
-      notes:
-        "Nine and a half minutes of progressive metal structured around the Fibonacci sequence. This is the most mathematically complex song on the list — and the most physically powerful.",
-      listenFor:
-        "The time signature follows the Fibonacci sequence — 1, 1, 2, 3, 5, 8, 13. Maynard's vocal syllables follow it too. Your brain feels the pattern before your conscious mind catches up. Listen with eyes closed. Don't try to count or analyze on first listen.",
-      story:
-        "From 'Lateralus' (2001). Danny Carey's polyrhythmic drumming is considered some of the most technically demanding in rock. The band has always been obsessed with sacred geometry and mathematical structures. The album debuted at number one.",
+      notes: "Nine and a half minutes of progressive metal structured around the Fibonacci sequence. This is the most mathematically complex song on the list — and the most physically powerful.",
+      listenFor: "The time signature follows the Fibonacci sequence — 1, 1, 2, 3, 5, 8, 13. Maynard's vocal syllables follow it too. Your brain feels the pattern before your conscious mind catches up. Listen with eyes closed. Don't try to count or analyze on first listen.",
+      story: "From 'Lateralus' (2001). Danny Carey's polyrhythmic drumming is considered some of the most technically demanding in rock. The band has always been obsessed with sacred geometry and mathematical structures. The album debuted at number one.",
     },
   },
 
@@ -934,14 +834,12 @@ export const playlist: Track[] = [
     duration: "4:13",
     genre: "Alternative",
     chapter: "full-circle",
-    side: "D",
+    side: "F",
+    spotifyId: "1YLJVmuzeM2YSUkCCaTNUB",
     programNotes: {
-      notes:
-        "After the wall of sound, release. Florence Welch's voice erupts over a percussion army and harp. This is catharsis — the emotional exhale after everything you've just heard.",
-      listenFor:
-        "The dynamics — it starts spare and builds to an overwhelming wall of drums, harp, and voice. On quality headphones, the percussion layers are stacked wide and deep. The harp has a shimmer that sits in a frequency range nothing else on the list touches.",
-      story:
-        "Written after Welch saw an installation by artist Tracey Emin. The title came from a phrase about running from happiness. Recorded with a drumming ensemble using unconventional percussion. The song's energy is almost violent in its joy.",
+      notes: "After the wall of sound, release. Florence Welch's voice erupts over a percussion army and harp. This is catharsis — the emotional exhale after everything you've just heard.",
+      listenFor: "The dynamics — it starts spare and builds to an overwhelming wall of drums, harp, and voice. On quality headphones, the percussion layers are stacked wide and deep. The harp has a shimmer that sits in a frequency range nothing else on the list touches.",
+      story: "Written after Welch saw an installation by artist Tracey Emin. The title came from a phrase about running from happiness. Recorded with a drumming ensemble using unconventional percussion. The song's energy is almost violent in its joy.",
     },
   },
   {
@@ -952,14 +850,12 @@ export const playlist: Track[] = [
     duration: "4:36",
     genre: "Soundtrack",
     chapter: "full-circle",
-    side: "D",
+    side: "F",
+    spotifyId: "6ZFbXIJkuI1dVNWvzJzown",
     programNotes: {
-      notes:
-        "The final track. Four and a half minutes of slow build from a single note to a full orchestra. This is how you end a journey — with something that makes you want to start it all over again.",
-      listenFor:
-        "The way each layer enters. Strings, then brass, then the full weight of the orchestra. On quality headphones, the dynamic range from the opening whisper to the final crescendo is enormous. This track will test the full range of your equipment.",
-      story:
-        "Composed for Christopher Nolan's 'Inception' (2010). Zimmer built the score around a single musical idea — a simple motif that grows through repetition and orchestration. He's said the theme is about the passage of time and the impossibility of going back. It's become the most-used piece of music in trailers and emotional content worldwide.",
+      notes: "The final track. Four and a half minutes of slow build from a single note to a full orchestra. This is how you end a journey — with something that makes you want to start it all over again.",
+      listenFor: "The way each layer enters. Strings, then brass, then the full weight of the orchestra. On quality headphones, the dynamic range from the opening whisper to the final crescendo is enormous. This track will test the full range of your equipment.",
+      story: "Composed for Christopher Nolan's 'Inception' (2010). Zimmer built the score around a single musical idea — a simple motif that grows through repetition and orchestration. He's said the theme is about the passage of time and the impossibility of going back. It's become the most-used piece of music in trailers and emotional content worldwide.",
     },
   },
 ];

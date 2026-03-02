@@ -12,7 +12,8 @@ export interface Track {
   duration: string;
   genre: string;
   chapter: string;
-  side: "A" | "B" | "C" | "D";
+  side: Side;
+  spotifyId: string | null;
   programNotes: ProgramNotes;
 }
 
@@ -20,14 +21,19 @@ export interface Chapter {
   id: string;
   title: string;
   subtitle: string;
-  side: "A" | "B" | "C" | "D";
+  side: Side;
 }
 
-export type Side = "A" | "B" | "C" | "D";
+export type Side = "A" | "B" | "C" | "D" | "E" | "F";
 
-export const SIDE_LABELS: Record<Side, string> = {
-  A: "Side A",
-  B: "Side B",
-  C: "Side C",
-  D: "Side D",
-};
+export interface Record {
+  number: number;
+  sides: [Side, Side];
+  label: string;
+}
+
+export const RECORDS: Record[] = [
+  { number: 1, sides: ["A", "B"], label: "Record One" },
+  { number: 2, sides: ["C", "D"], label: "Record Two" },
+  { number: 3, sides: ["E", "F"], label: "Record Three" },
+];

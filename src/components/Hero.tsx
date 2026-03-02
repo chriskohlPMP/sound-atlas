@@ -12,7 +12,7 @@ export function Hero() {
           Sound Atlas
         </h1>
         <p className="font-display text-xl md:text-2xl text-text-secondary italic leading-relaxed mb-4">
-          52 tracks. Program notes. Five sides.
+          52 tracks. Three records. Six sides.
         </p>
         <p className="text-text-muted text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-12">
           Not a playlist — a journey through sound. Built for people who care

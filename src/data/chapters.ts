@@ -1,6 +1,7 @@
 import type { Chapter } from "./types";
 
 export const chapters: Chapter[] = [
+  // Record 1, Side A
   {
     id: "the-root",
     title: "The Root",
@@ -13,6 +14,7 @@ export const chapters: Chapter[] = [
     subtitle: "How space shapes sound.",
     side: "A",
   },
+  // Record 1, Side B
   {
     id: "the-voice",
     title: "The Voice",
@@ -25,6 +27,7 @@ export const chapters: Chapter[] = [
     subtitle: "Hearing things you've never heard before.",
     side: "B",
   },
+  // Record 2, Side C
   {
     id: "the-mix",
     title: "The Mix",
@@ -37,34 +40,37 @@ export const chapters: Chapter[] = [
     subtitle: "Tension, patience, and release.",
     side: "C",
   },
+  // Record 2, Side D
   {
     id: "the-groove",
     title: "The Groove",
     subtitle: "Rhythm, bass, and the body.",
-    side: "C",
+    side: "D",
   },
+  // Record 3, Side E
   {
     id: "the-mood",
     title: "The Mood",
     subtitle: "Atmosphere and texture.",
-    side: "D",
+    side: "E",
   },
   {
     id: "the-machine",
     title: "The Machine",
     subtitle: "What happens when humans and technology merge.",
-    side: "D",
+    side: "E",
   },
+  // Record 3, Side F
   {
     id: "the-wall",
     title: "The Wall",
     subtitle: "When sound becomes overwhelming and intentional.",
-    side: "D",
+    side: "F",
   },
   {
     id: "full-circle",
     title: "Full Circle",
     subtitle: "Back to where we started. Changed.",
-    side: "D",
+    side: "F",
   },
 ];

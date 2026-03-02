@@ -14,7 +14,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "5rTeB5roClzItVdGeYDDla",
     appleMusicId: "193890826",
-    youtubeId: "uYUwO6_lysw",
+    youtubeId: "SpPRj_iw1RU",
     programNotes: {
       notes: "We start at the beginning. Before rock, before R&B, before hip-hop — there was this. Just a voice and a church organ. No production tricks, nothing to hide behind.",
       listenFor: "The raw power of her voice against the simplicity of the organ. On quality headphones, you'll hear the room — the natural reverb of the space she's singing in.",
@@ -32,7 +32,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "1JxjQrdqcyYF9kW3sxsjva",
     appleMusicId: "198155375",
-    youtubeId: "bkNMj2YGbY8",
+    youtubeId: "uHmXF59LqcY",
     programNotes: {
       notes: "Electric blues, Chess Records — this is the DNA of rock. If you're a Zeppelin fan, this is where they took everything.",
       listenFor: "The space between the notes. Muddy's guitar tone is fat, raw, and distorted in a way that was revolutionary. On planars, that tone has weight.",
@@ -142,7 +142,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "5lkpeJwmQKgY3bX2zChjxX",
     appleMusicId: "1544491998",
-    youtubeId: "hLQl3WQQoQ0",
+    youtubeId: "22c3_LoIfZQ",
     programNotes: {
       notes: "After 17 minutes of ambient tape loops, a human voice and a piano. Simple, devastating, and a masterclass in how little you need.",
       listenFor: "The piano's sustain pedal — you can hear the dampers lift and the strings ring sympathetically. Adele's breath control is extraordinary; listen for the micro-dynamics between her quiet phrases and full-voice moments.",
@@ -235,7 +235,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "52riputZ4Vo5PG9MOSy6r5",
     appleMusicId: "297721518",
-    youtubeId: "pWUMSPekHBE",
+    youtubeId: "dfQaUPf9V-Q",
     programNotes: {
       notes: "Nate Dogg had one of the most recognizable voices in hip-hop — smooth, effortless, and impossibly warm. This is him leading instead of guesting.",
       listenFor: "His vocal layering — multiple takes of his own voice stacked and panned to create a chorus effect that's wider than the speakers. The bass sits deep and round underneath.",
@@ -291,7 +291,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "6PHAN2CmhXNwxwfvGZ6aJL",
     appleMusicId: "1440743772",
-    youtubeId: "tew_fIhz3eY",
+    youtubeId: "-VugyHZ40AU",
     programNotes: {
       notes: "One guy, one acoustic guitar, and technique that borders on inhuman. This is what happens when an instrument is pushed to its absolute limit.",
       listenFor: "Every individual string. On resolving headphones, you can track each finger independently — the bass line, the melody, and the rhythmic percussive hits on the body of the guitar all happening simultaneously.",
@@ -327,7 +327,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "4jggSeOIIXdrIXrzrZOBVf",
     appleMusicId: "883897592",
-    youtubeId: "zzE-kVadtNw",
+    youtubeId: "bEmVKAZkjpQ",
     programNotes: {
       notes: "The first movement of Summer — ominous, tense, building toward a storm. The solo violin carries the narrative entirely.",
       listenFor: "Jansen's bow pressure and vibrato. On quality headphones, you can hear the rosin on the strings, the physical effort of the instrument. The ensemble responds to her dynamics in real time.",
@@ -345,7 +345,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "2585tm5FEqfRzNskDHmu5q",
     appleMusicId: "883897593",
-    youtubeId: "zzE-kVadtNw",
+    youtubeId: "agpa1LLHxxw",
     programNotes: {
       notes: "Two minutes of tension. The slow section drips with heat exhaustion before the storm breaks. Vivaldi wrote this as program music — he was scoring weather.",
       listenFor: "The contrast between the languid Adagio and the sudden Presto eruption. The dynamic shift is enormous. Your headphones will tell you how fast they can respond to transients.",
@@ -363,7 +363,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0Go4cVHryJLcpY2pZVkV3A",
     appleMusicId: "883897594",
-    youtubeId: "zzE-kVadtNw",
+    youtubeId: "Y4LDMkn5Nkg",
     programNotes: {
       notes: "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",
       listenFor: "The speed of Jansen's bow work and the precision of the ensemble. On resolving headphones, even at this tempo, you can distinguish individual instruments. The bass section rumbles like distant thunder.",

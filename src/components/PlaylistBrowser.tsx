@@ -83,7 +83,7 @@ export function PlaylistBrowser() {
   let lastSide: Side | null = null;
 
   return (
-    <section id="playlist" className="max-w-3xl mx-auto px-4 md:px-6 py-16">
+    <section id="playlist" className="max-w-5xl mx-auto px-4 md:px-8 py-16">
       <div className="text-center mb-12">
         <p className="text-accent font-body text-sm tracking-[0.3em] uppercase mb-4">
           The Journey

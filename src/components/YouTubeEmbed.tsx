@@ -1,87 +1,77 @@
-import { useEffect, useRef, useCallback } from "react";
+import { Play, ExternalLink, Search } from "lucide-react";
 import type { Track } from "../data/types";
 import { usePlayback } from "../context/PlaybackContext";
-import { playlist } from "../data/playlist";
 
 interface YouTubeEmbedProps {
   track: Track;
 }
 
 export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const playerInstanceRef = useRef<YT.Player | null>(null);
-  const {
-    currentTrackId,
-    setManualCurrentTrack,
-    youtubePlayerRef,
-    volume,
-  } = usePlayback();
-
-  const isCurrentTrack = currentTrackId === track.id;
-
-  const onStateChange = useCallback(
-    (event: { data: number }) => {
-      // YT.PlayerState.PLAYING = 1
-      if (event.data === 1) {
-        setManualCurrentTrack(track.id);
-        if (youtubePlayerRef) {
-          youtubePlayerRef.current = playerInstanceRef.current;
-        }
-      }
-      // YT.PlayerState.ENDED = 0 — auto-advance
-      if (event.data === 0) {
-        const nextTrack = playlist.find(
-          (t) => t.id === track.id + 1 && t.youtubeId
-        );
-        if (nextTrack) {
-          setManualCurrentTrack(nextTrack.id);
-        }
-      }
-    },
-    [track.id, setManualCurrentTrack, youtubePlayerRef]
-  );
-
-  useEffect(() => {
-    if (!track.youtubeId || !containerRef.current) return;
-    if (!window.YT || !window.YT.Player) return;
-
-    const divId = `yt-player-${track.id}`;
-    containerRef.current.id = divId;
-
-    const player = new window.YT.Player(divId, {
-      height: "80",
-      width: "100%",
-      videoId: track.youtubeId,
-      playerVars: {
-        modestbranding: 1,
-        rel: 0,
-        color: "white",
-        playsinline: 1,
-      },
-      events: {
-        onReady: (event: { target: YT.Player }) => {
-          event.target.setVolume(volume * 100);
-        },
-        onStateChange: onStateChange,
-      },
-    });
-
-    playerInstanceRef.current = player;
-
-    return () => {
-      player.destroy();
-      playerInstanceRef.current = null;
-    };
-  }, [track.youtubeId, track.id]);
+  const { activeYoutubeTrackId, playYoutubeTrack } = usePlayback();
+  const isActive = activeYoutubeTrackId === track.id;
 
   if (!track.youtubeId) return null;
 
+  const searchQuery = encodeURIComponent(`${track.artist} ${track.title}`);
+
   return (
-    <div
-      ref={containerRef}
-      className={`rounded-lg overflow-hidden transition-opacity ${
-        isCurrentTrack ? "opacity-100" : "opacity-80 hover:opacity-100"
-      }`}
-    />
+    <div>
+      {isActive ? (
+        <iframe
+          src={`https://www.youtube.com/embed/${track.youtubeId}?rel=0&modestbranding=1&autoplay=1`}
+          width="100%"
+          height="220"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          className="rounded-lg"
+        />
+      ) : (
+        <button
+          onClick={() => playYoutubeTrack(track.id)}
+          className="relative w-full h-[220px] rounded-lg overflow-hidden group cursor-pointer bg-black"
+        >
+          <img
+            src={`https://img.youtube.com/vi/${track.youtubeId}/hqdefault.jpg`}
+            alt={track.title}
+            className="w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="bg-red-600 rounded-full p-3 group-hover:scale-110 transition-transform shadow-lg">
+              <Play className="w-6 h-6 text-white ml-0.5" fill="white" />
+            </div>
+          </div>
+        </button>
+      )}
+      <div className="flex items-center gap-3 mt-2">
+        <a
+          href={`https://music.youtube.com/watch?v=${track.youtubeId}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+        >
+          <ExternalLink className="w-3 h-3" />
+          YouTube Music
+        </a>
+        <a
+          href={`https://www.youtube.com/watch?v=${track.youtubeId}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+        >
+          <ExternalLink className="w-3 h-3" />
+          YouTube
+        </a>
+        <a
+          href={`https://www.youtube.com/results?search_query=${searchQuery}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+        >
+          <Search className="w-3 h-3" />
+          More versions
+        </a>
+      </div>
+    </div>
   );
 }

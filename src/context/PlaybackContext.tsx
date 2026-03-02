@@ -34,6 +34,11 @@ export interface PlaybackContextValue {
   manualCurrentTrack: number | null;
   setManualCurrentTrack: (id: number | null) => void;
 
+  // Apple Music UX gate
+  appleMusicReady: boolean;
+  confirmAppleMusicReady: () => void;
+  resetAppleMusicReady: () => void;
+
   // Mobile
   isMobile: boolean;
 
@@ -43,6 +48,9 @@ export interface PlaybackContextValue {
 
   // YouTube
   youtubePlayerRef: React.MutableRefObject<YT.Player | null> | null;
+  activeYoutubeTrackId: number | null;
+  playYoutubeTrack: (trackId: number) => void;
+  stopYoutube: () => void;
 }
 
 const PlaybackContext = createContext<PlaybackContextValue | null>(null);

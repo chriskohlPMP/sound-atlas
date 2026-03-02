@@ -20,6 +20,7 @@ export function TrackCard({ track, trackRef }: TrackCardProps) {
     playTrack,
     togglePlayPause,
     isMobile,
+    appleMusicReady,
   } = usePlayback();
 
   const isCurrentTrack = currentTrackId === track.id;
@@ -131,33 +132,33 @@ export function TrackCard({ track, trackRef }: TrackCardProps) {
       )}
 
       {/* Deep links for companion modes */}
-      {(platform === "apple-music" ||
-        (platform === "spotify" && (isMobile || !isAuthenticated))) && (
-        <div className="ml-12 mb-4 flex flex-wrap gap-3">
+      {(platform === "apple-music" && appleMusicReady) ||
+      (platform === "spotify" && !canPlayInBrowser) ? (
+        <div className="ml-12 mb-5 flex flex-wrap gap-3">
           {platform === "apple-music" && appleMusicUrl && (
             <a
               href={appleMusicUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface hover:bg-surface-hover text-text-secondary hover:text-text-primary border border-border-subtle transition-colors"
             >
-              <ExternalLink className="w-3 h-3" />
-              Open in Apple Music
+              <ExternalLink className="w-4 h-4" />
+              Apple Music
             </a>
           )}
-          {platform === "spotify" && spotifyUrl && (isMobile || !isAuthenticated) && (
+          {platform === "spotify" && spotifyUrl && !canPlayInBrowser && (
             <a
               href={spotifyUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface hover:bg-surface-hover text-text-secondary hover:text-text-primary border border-border-subtle transition-colors"
             >
-              <ExternalLink className="w-3 h-3" />
+              <ExternalLink className="w-4 h-4" />
               Open in Spotify
             </a>
           )}
         </div>
-      )}
+      ) : null}
 
       {/* Program notes */}
       <div className="ml-12 grid gap-5 md:grid-cols-3">

@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 text-center">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-surface opacity-80" />
-      <div className="relative z-10 max-w-3xl">
+      <div className="relative z-10 max-w-5xl">
         <p className="text-accent font-body text-sm tracking-[0.3em] uppercase mb-6">
           A Guided Listening Experience
         </p>

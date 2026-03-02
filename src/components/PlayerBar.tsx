@@ -57,7 +57,7 @@ export function PlayerBar() {
         />
       </div>
 
-      <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-4">
+      <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-4">
         {/* Track info */}
         <div className="flex-1 min-w-0 flex items-center gap-3">
           {isPlaying && <EqualizerIcon />}

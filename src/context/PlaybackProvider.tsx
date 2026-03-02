@@ -16,6 +16,7 @@ import { loadYouTubeAPI } from "../lib/youtube-player";
 
 const PLATFORM_KEY = "ohrwurm-platform";
 const VOLUME_KEY = "ohrwurm-volume";
+const APPLE_READY_KEY = "ohrwurm-apple-ready";
 
 const isMobileBrowser = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -74,6 +75,24 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
 
   // Manual tracking (Apple Music / YouTube companion mode)
   const [manualCurrentTrack, setManualCurrentTrack] = useState<number | null>(null);
+
+  // YouTube single-player: only one embed active at a time
+  const [activeYoutubeTrackId, setActiveYoutubeTrackId] = useState<number | null>(null);
+
+  // Apple Music UX gate
+  const [appleMusicReady, setAppleMusicReady] = useState(() => {
+    try { return localStorage.getItem(APPLE_READY_KEY) === "true"; } catch { return false; }
+  });
+
+  const confirmAppleMusicReady = useCallback(() => {
+    setAppleMusicReady(true);
+    try { localStorage.setItem(APPLE_READY_KEY, "true"); } catch {}
+  }, []);
+
+  const resetAppleMusicReady = useCallback(() => {
+    setAppleMusicReady(false);
+    try { localStorage.removeItem(APPLE_READY_KEY); } catch {}
+  }, []);
 
   // Derived
   const currentTrackId = currentSpotifyId
@@ -284,6 +303,16 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
     [platform]
   );
 
+  // YouTube single-player controls
+  const playYoutubeTrack = useCallback((trackId: number) => {
+    setActiveYoutubeTrackId(trackId);
+    setManualCurrentTrack(trackId);
+  }, []);
+
+  const stopYoutube = useCallback(() => {
+    setActiveYoutubeTrackId(null);
+  }, []);
+
   const setVolume = useCallback(
     (v: number) => {
       setVolumeState(v);
@@ -321,10 +350,16 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
         setVolume,
         manualCurrentTrack,
         setManualCurrentTrack,
+        appleMusicReady,
+        confirmAppleMusicReady,
+        resetAppleMusicReady,
         isMobile: isMobileBrowser,
         error,
         isPremiumRequired,
         youtubePlayerRef,
+        activeYoutubeTrackId,
+        playYoutubeTrack,
+        stopYoutube,
       }}
     >
       {children}

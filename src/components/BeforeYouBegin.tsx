@@ -2,7 +2,7 @@ import { Headphones, Wifi, Volume2 } from "lucide-react";
 
 export function BeforeYouBegin() {
   return (
-    <section className="max-w-3xl mx-auto px-4 md:px-6 py-16 border-b border-border-subtle">
+    <section className="max-w-5xl mx-auto px-4 md:px-8 py-16 border-b border-border-subtle">
       <div className="text-center mb-10">
         <p className="text-accent font-body text-sm tracking-[0.3em] uppercase mb-4">
           Before You Begin

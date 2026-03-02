@@ -14,7 +14,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "5rTeB5roClzItVdGeYDDla",
     appleMusicId: "193890826",
-    youtubeId: null,
+    youtubeId: "uYUwO6_lysw",
     programNotes: {
       notes: "We start at the beginning. Before rock, before R&B, before hip-hop — there was this. Just a voice and a church organ. No production tricks, nothing to hide behind.",
       listenFor: "The raw power of her voice against the simplicity of the organ. On quality headphones, you'll hear the room — the natural reverb of the space she's singing in.",
@@ -32,7 +32,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "1JxjQrdqcyYF9kW3sxsjva",
     appleMusicId: "198155375",
-    youtubeId: null,
+    youtubeId: "bkNMj2YGbY8",
     programNotes: {
       notes: "Electric blues, Chess Records — this is the DNA of rock. If you're a Zeppelin fan, this is where they took everything.",
       listenFor: "The space between the notes. Muddy's guitar tone is fat, raw, and distorted in a way that was revolutionary. On planars, that tone has weight.",
@@ -50,7 +50,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "6HJujxcjMmVZhd8z5EpPri",
     appleMusicId: "1440893075",
-    youtubeId: null,
+    youtubeId: "hEMm7gxBYSc",
     programNotes: {
       notes: "His voice is completely shredded, pouring everything into that final scream, and you can hear the room. The audience is dead silent.",
       listenFor: "When that final vocal line hits — on planars with mesh pads, you'll hear every crack and strain in his throat. The acoustic guitar has a warmth and body that studio recordings rarely capture.",
@@ -68,7 +68,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "05f8Hg3RSfiPSCBQOtxl3i",
     appleMusicId: "580708184",
-    youtubeId: null,
+    youtubeId: "8j7oT2I8Nz8",
     programNotes: {
       notes: "That drum sound is one of the most legendary recordings in rock history.",
       listenFor: "Bonham's kit was recorded in a stairwell — on planars with bass EQ you'll feel that kick drum in your chest. The harmonica and guitar sit in a huge reverberant space that sounds three-dimensional.",
@@ -88,7 +88,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "2GpBrAoCwt48fxjgjlzMd4",
     appleMusicId: "1453925093",
-    youtubeId: null,
+    youtubeId: "kuFu_s46AcI",
     programNotes: {
       notes: "You've heard this song a thousand times. You've never heard it like this. The live version strips away studio polish and drops you into an arena.",
       listenFor: "The 12-string guitar intro — on quality headphones, each string has its own position in the stereo field. You can pinpoint where each musician is standing on stage.",
@@ -106,7 +106,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "3Cwhf9hf89L8qIRy0T6GFv",
     appleMusicId: "268443097",
-    youtubeId: null,
+    youtubeId: "zqNTltOGh5c",
     programNotes: {
       notes: "The opening bass line alone will tell you something about the headphones that nothing else on the list can. The best-selling jazz album of all time.",
       listenFor: "The upright bass has a resonance that fills the entire stereo field. Each instrument occupies its own space — you can hear exactly where the piano, trumpet, and saxophone sit in the room at Columbia's 30th Street Studio.",
@@ -124,7 +124,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "3bCmDqflFBHijgJfvtqev5",
     appleMusicId: "724436237",
-    youtubeId: null,
+    youtubeId: "LKZ3fGR2SDY",
     programNotes: {
       notes: "The opening track from the album that literally invented the genre of ambient music. About 17 minutes long.",
       listenFor: "What your headphones do with silence, space, and decay. Notes fade into nothing and you realize you're listening to the room between the sounds.",
@@ -142,7 +142,7 @@ export const playlist: Track[] = [
     side: "A",
     spotifyId: "5lkpeJwmQKgY3bX2zChjxX",
     appleMusicId: "1544491998",
-    youtubeId: null,
+    youtubeId: "hLQl3WQQoQ0",
     programNotes: {
       notes: "After 17 minutes of ambient tape loops, a human voice and a piano. Simple, devastating, and a masterclass in how little you need.",
       listenFor: "The piano's sustain pedal — you can hear the dampers lift and the strings ring sympathetically. Adele's breath control is extraordinary; listen for the micro-dynamics between her quiet phrases and full-voice moments.",
@@ -163,7 +163,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0tUELgOuOJ3KCsYMDDsNvD",
     appleMusicId: "1436558851",
-    youtubeId: null,
+    youtubeId: "IuUDRU9-HRk",
     programNotes: {
       notes: "A four-octave range, acoustic guitar, and a Prince song reimagined as grief. Cornell takes a pop ballad and turns it into something harrowing.",
       listenFor: "The dynamic range of his voice — from a whisper to a full-power scream within the same phrase. On quality headphones, you'll hear the room mic picking up the guitar body resonance alongside his vocal.",
@@ -181,7 +181,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "6hrgeEo1WQOHVeF8QMv68S",
     appleMusicId: "714521368",
-    youtubeId: null,
+    youtubeId: "fZly12eGpNA",
     programNotes: {
       notes: "Before 'Chandelier,' before the wig, Sia made this. Fragile, intimate, and almost uncomfortably close.",
       listenFor: "The vocal is mixed extremely close — almost inside your head. Strings enter gradually, building around her voice like a cocoon. On good headphones, the stereo spread of the string arrangement is breathtaking.",
@@ -199,7 +199,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "30FURVTCpbKyykjSEQzGkH",
     appleMusicId: "1422677785",
-    youtubeId: null,
+    youtubeId: "TJAfLE39ZZ8",
     programNotes: {
       notes: "A 2006 track that sounds like it was recorded in 1963. Producer Mark Ronson built a Motown wall of sound around a voice that could have come from any decade.",
       listenFor: "The bass drum pattern and upright bass driving the Motown-inspired groove. Amy's vocal sits right on top — dry, close-mic'd, with almost no reverb. You can hear every grain of her voice.",
@@ -217,7 +217,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "3TqDgFpCwloJLDzwI2HG8U",
     appleMusicId: "882945383",
-    youtubeId: null,
+    youtubeId: "2vjPBrBU-TM",
     programNotes: {
       notes: "After the intimacy of 'Breathe Me,' Sia returns with full power. The vocal range here is absurd — the chorus pushes into a register most singers can't touch.",
       listenFor: "The pre-chorus build: layers stack — piano, bass, drums — then the chorus detonates. On resolving headphones, each layer remains distinct even at peak volume.",
@@ -235,7 +235,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "52riputZ4Vo5PG9MOSy6r5",
     appleMusicId: "297721518",
-    youtubeId: null,
+    youtubeId: "pWUMSPekHBE",
     programNotes: {
       notes: "Nate Dogg had one of the most recognizable voices in hip-hop — smooth, effortless, and impossibly warm. This is him leading instead of guesting.",
       listenFor: "His vocal layering — multiple takes of his own voice stacked and panned to create a chorus effect that's wider than the speakers. The bass sits deep and round underneath.",
@@ -253,7 +253,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "4oPNN7syJYSjzDhRerF966",
     appleMusicId: "1440841917",
-    youtubeId: null,
+    youtubeId: "SxVNOnPyvIU",
     programNotes: {
       notes: "Seven minutes of neo-soul that barely rises above a whisper. Everything is slightly behind the beat, slightly out of focus — and that's entirely intentional.",
       listenFor: "The rhythm section sits just behind the grid — the drums and bass are human, imperfect, and hypnotic. D'Angelo's multi-tracked vocals weave around each other. On good headphones, you'll hear at least four distinct vocal layers.",
@@ -271,7 +271,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "1CS7Sd1u5tWkstBhpssyjP",
     appleMusicId: "923529775",
-    youtubeId: null,
+    youtubeId: "PVjiKRfKpPI",
     programNotes: {
       notes: "A gospel-structured protest song disguised as a love song. The dynamics — from the hushed verse to the thundering chorus — are designed to make you feel something in your body.",
       listenFor: "The transition from verse to chorus: the room opens up. Hozier's voice goes from intimate and breathy to full chest voice. The choir layers on the final chorus are mixed wide — they'll surround you.",
@@ -291,7 +291,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "6PHAN2CmhXNwxwfvGZ6aJL",
     appleMusicId: "1440743772",
-    youtubeId: null,
+    youtubeId: "tew_fIhz3eY",
     programNotes: {
       notes: "One guy, one acoustic guitar, and technique that borders on inhuman. This is what happens when an instrument is pushed to its absolute limit.",
       listenFor: "Every individual string. On resolving headphones, you can track each finger independently — the bass line, the melody, and the rhythmic percussive hits on the body of the guitar all happening simultaneously.",
@@ -309,7 +309,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0w0Zs8pu4wx9iErRMEG96L",
     appleMusicId: "1706428462",
-    youtubeId: null,
+    youtubeId: "pGmB7Jksl5k",
     programNotes: {
       notes: "Audiophile reference material. If you're testing headphones, this is the track audio engineers reach for. Every instrument is recorded, mixed, and mastered to perfection.",
       listenFor: "Steve Gadd's drum solo starting around the 4-minute mark — it's one of the most celebrated in recording history. The hi-hat detail, the snare tone, the way the kick drum locks with the bass. On planars, it's revelatory.",
@@ -327,7 +327,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "4jggSeOIIXdrIXrzrZOBVf",
     appleMusicId: "883897592",
-    youtubeId: null,
+    youtubeId: "zzE-kVadtNw",
     programNotes: {
       notes: "The first movement of Summer — ominous, tense, building toward a storm. The solo violin carries the narrative entirely.",
       listenFor: "Jansen's bow pressure and vibrato. On quality headphones, you can hear the rosin on the strings, the physical effort of the instrument. The ensemble responds to her dynamics in real time.",
@@ -345,7 +345,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "2585tm5FEqfRzNskDHmu5q",
     appleMusicId: "883897593",
-    youtubeId: null,
+    youtubeId: "zzE-kVadtNw",
     programNotes: {
       notes: "Two minutes of tension. The slow section drips with heat exhaustion before the storm breaks. Vivaldi wrote this as program music — he was scoring weather.",
       listenFor: "The contrast between the languid Adagio and the sudden Presto eruption. The dynamic shift is enormous. Your headphones will tell you how fast they can respond to transients.",
@@ -363,7 +363,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0Go4cVHryJLcpY2pZVkV3A",
     appleMusicId: "883897594",
-    youtubeId: null,
+    youtubeId: "zzE-kVadtNw",
     programNotes: {
       notes: "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",
       listenFor: "The speed of Jansen's bow work and the precision of the ensemble. On resolving headphones, even at this tempo, you can distinguish individual instruments. The bass section rumbles like distant thunder.",
@@ -381,7 +381,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "5sbw5zIz9ck2pOEDXUR0QU",
     appleMusicId: "1716598344",
-    youtubeId: null,
+    youtubeId: "tGbRZ73NvlY",
     programNotes: {
       notes: "Acoustic instruments from another tradition entirely — gorgeous, warm, and recorded with a naturalness that makes you feel like you're sitting in the room.",
       listenFor: "The interplay between the guitar, tres (Cuban guitar), and bass. Each instrument has a distinct position in the stereo field. Compay Segundo's voice has a weathered warmth that good headphones will render beautifully.",
@@ -402,7 +402,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "0vFOzaXqZHahrZp6enQwQb",
     appleMusicId: "1065973708",
-    youtubeId: null,
+    youtubeId: "cpbbuaIA3Ds",
     programNotes: {
       notes: "The opening is a production masterpiece — cash registers, coins, and paper built into a rhythmic loop that predates sampling by decades.",
       listenFor: "Close your eyes during the opening. The cash register sounds move from left to right to center. This is stereo panning used as art. The song is in 7/4 time — an unusual time signature that your brain adjusts to without consciously counting.",
@@ -420,7 +420,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "7tFiyTwD0nx5a1eklYtX2J",
     appleMusicId: "1422650797",
-    youtubeId: null,
+    youtubeId: "fJ9rUzIMcZQ",
     programNotes: {
       notes: "A six-minute track with no chorus that moves through ballad, opera, hard rock, and reflective coda. It shouldn't work. It's one of the most successful songs ever recorded.",
       listenFor: "During the operatic section, 180 vocal overdubs layered into a wall. On resolving headphones, those layers separate — you can hear individual voices within the mass. The stereo field during the 'Galileo' section is enormous.",
@@ -438,7 +438,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "2b5YXFjqymzBpiecHX0qx2",
     appleMusicId: "697195941",
-    youtubeId: null,
+    youtubeId: "sOS9aOIXPEk",
     programNotes: {
       notes: "A love song from two robots. Warm, analog synths over a slow groove — this is bass texture as art. Under four minutes and emotionally perfect.",
       listenFor: "The bass — warm, enveloping, and rounded in a way that fills the low end without overwhelming it. On planars, the sub-bass content is physical. The vocoder vocal sits in its own space, slightly detached.",
@@ -456,7 +456,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "7pLuEMFougkSHXrPBtNxTR",
     appleMusicId: "1524651263",
-    youtubeId: null,
+    youtubeId: "4TYv2PhG89A",
     programNotes: {
       notes: "Sade's voice floats above a mix that's impossibly smooth — saxophone, bass, and light percussion, all polished to a mirror finish. This is the definition of production elegance.",
       listenFor: "The saxophone placement in the stereo field — it moves. The bass is deep but restrained, and Sade's vocal has zero harshness. On quality headphones, the mix sounds like liquid.",
@@ -474,7 +474,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "1nFtiJxYdhtFfFtfXBv06s",
     appleMusicId: "1440824160",
-    youtubeId: null,
+    youtubeId: "1YhR5UfaAzM",
     programNotes: {
       notes: "The quietest track on Nevermind. Cobain's vocal is barely above a whisper, the cello adds a weight that's almost physical, and the whole thing sounds like it's being played inside a cardboard box.",
       listenFor: "The proximity effect on Cobain's vocal — he's singing so close to the mic that the low end of his voice is exaggerated. On good headphones, the cello and bass guitar merge into a single dark texture underneath.",
@@ -492,7 +492,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "2fQ2iALVbAZ7MkH6PaaIJ6",
     appleMusicId: "580707923",
-    youtubeId: null,
+    youtubeId: "kW3xDZrlBQs",
     programNotes: {
       notes: "Zeppelin at their most atmospheric. John Paul Jones's electric piano drifts through the mix like fog, and the whole track feels submerged — dark, slow, and heavy.",
       listenFor: "The phasing effect on the vocal — Page ran Plant's voice through a Leslie speaker cabinet. The piano tone has a warble that fills the entire stereo field. Bonham's drums are buried in reverb but hit like hammers.",
@@ -512,7 +512,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "423hwXFgoN8RYmqLoLuVvY",
     appleMusicId: "1440823021",
-    youtubeId: null,
+    youtubeId: "IT8XvzIfi4U",
     programNotes: {
       notes: "The definitive version. Seven minutes of slow build — from gentle organ and voice to a full-band anthem. This is patience rewarded.",
       listenFor: "Carlton Barrett's kick drum and the bass line. On planars, the reggae bass sits in a frequency range that most pop doesn't touch — deep, round, and propulsive without being aggressive.",
@@ -530,7 +530,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "67Hna13dNDkZvBpTXRIaOJ",
     appleMusicId: "724466700",
-    youtubeId: null,
+    youtubeId: "u7K72X4eo_s",
     programNotes: {
       notes: "Trip-hop perfection. A harpsichord sample, a heartbeat pulse, and Elizabeth Fraser's otherworldly vocal floating above a bass that vibrates in your chest.",
       listenFor: "The sub-bass pulse that runs through the entire track — it's a heartbeat. On quality headphones, it's physical, not just audible. Fraser's vocal is mixed with heavy reverb and delay, creating a sense of vast space.",
@@ -548,7 +548,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "3Ty7OTBNSigGEpeW2PqcsC",
     appleMusicId: "1440653206",
-    youtubeId: null,
+    youtubeId: "yF-GvT8Clnk",
     programNotes: {
       notes: "Beth Gibbons' voice over a sample from Isaac Hayes, scratched vinyl textures, and a guitar riff that smolders. This is Bristol trip-hop at its peak.",
       listenFor: "The vinyl crackle that runs underneath — it's intentional texture, not noise. The bass is sparse but massive. The guitar solo in the second half is raw and emotional against the electronic backdrop.",
@@ -566,7 +566,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "31DVVa40JpTudyGDNC1ROW",
     appleMusicId: "1097863108",
-    youtubeId: null,
+    youtubeId: "onRk0sjSgFU",
     programNotes: {
       notes: "The opening of Kid A — Radiohead's deliberate destruction of everything that made them famous. Synths, chopped vocals, and a refusal to do what anyone expected.",
       listenFor: "Vocal fragments buried in layers that sound like synths but are actually Thom Yorke's voice cut into pieces. On planars, you'll hear at least three distinct vocal textures happening simultaneously.",
@@ -584,7 +584,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "1vgSaC0BPlL6LEm4Xsx59J",
     appleMusicId: "1462266178",
-    youtubeId: null,
+    youtubeId: "OlaTeXX3uH8",
     programNotes: {
       notes: "About four minutes and emotionally devastating in its simplicity. Layers of synth that build and swell like breathing. Used in countless films and documentaries.",
       listenFor: "The way each synth layer enters — almost imperceptibly. There's no rhythm, no melody in the traditional sense. Your headphones will reveal how many individual layers are actually present. On good gear, you'll count at least six.",
@@ -604,7 +604,7 @@ export const playlist: Track[] = [
     side: "D",
     spotifyId: "5e9TFTbltYBg2xThimr0rU",
     appleMusicId: "594061861",
-    youtubeId: null,
+    youtubeId: "kBYHwH1Vb-c",
     programNotes: {
       notes: "The only song on Rumours written by all five members. Assembled from fragments of different jam sessions while two couples in the band were breaking up.",
       listenFor: "That bass line entrance — on quality headphones, John McVie's bass doesn't just arrive, it physically shifts the weight of the entire mix. The transition from the quiet verse to the full-band finale is one of the greatest builds in rock.",
@@ -622,7 +622,7 @@ export const playlist: Track[] = [
     side: "D",
     spotifyId: "503OTo2dSqe7qk76rgsbep",
     appleMusicId: "1440782870",
-    youtubeId: null,
+    youtubeId: "_CL6n0FJZpk",
     programNotes: {
       notes: "That piano riff is one of the most iconic in hip-hop. Dre's production is clean, heavy, and deceptively simple — every element has space to breathe.",
       listenFor: "The sub-bass. On planars, it doesn't just thump — it sustains and resonates. The piano is panned slightly and the hi-hats have a crispness that cuts through the low end without competing.",
@@ -640,7 +640,7 @@ export const playlist: Track[] = [
     side: "D",
     spotifyId: "3Ti0GdlrotgwsAVBBugv0I",
     appleMusicId: "266768597",
-    youtubeId: null,
+    youtubeId: "O3pyCGnZzYA",
     programNotes: {
       notes: "Built on a Lou Reed bass line ('Walk on the Wild Side'), this is sampling elevated to art. The groove is irresistible and the production is warm and organic.",
       listenFor: "The bass sample — thick, round, and sitting right in the center. The drum break has a swing that's impossible to program. Q-Tip's flow rides the beat with an ease that sounds casual but is surgically precise.",
@@ -658,7 +658,7 @@ export const playlist: Track[] = [
     side: "D",
     spotifyId: "5vIu19A3EEdHgFM4Cba6F4",
     appleMusicId: "1738937698",
-    youtubeId: null,
+    youtubeId: "bSGx23jczGk",
     programNotes: {
       notes: "Bay Area hyphy meets trunk-rattling bass. E-40 has been innovating in hip-hop since the late '80s, and this track is pure groove — head-nodding, unavoidable bass weight.",
       listenFor: "The 808 kick drum — it's pitched low and sustained long, designed for car subwoofers. On planars, you'll feel it in a way earbuds can't reproduce. The snap of the snare is crisp and sits perfectly against the bass.",
@@ -676,7 +676,7 @@ export const playlist: Track[] = [
     side: "D",
     spotifyId: "59WN2psjkt1tyaxjspN8fp",
     appleMusicId: "191450927",
-    youtubeId: null,
+    youtubeId: "bWXazVhlyxQ",
     programNotes: {
       notes: "Tom Morello's guitar sounds like a machine — because he's using the instrument as a percussion weapon as much as a melodic one. The groove is relentless.",
       listenFor: "Morello's techniques — the kill switch stutters, the whammy pedal squeals, the wah-wah funk. On quality headphones, his guitar is panned wide while Tim Commerford's bass anchors the center with a tone that rattles.",
@@ -697,7 +697,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "6Vjk8MNXpQpi0F4BefdTyq",
     appleMusicId: "580708059",
-    youtubeId: null,
+    youtubeId: "sfR_HWMzgyc",
     programNotes: {
       notes: "Zeppelin's most cinematic track. The orchestra, the droning riff, the sheer scale of it — this isn't a song, it's a landscape.",
       listenFor: "The string and brass orchestration layered against Page's guitar riff. They're in different time feels — the guitars are in standard time while the strings sway. On headphones, the orchestra wraps around the riff like a second sky.",
@@ -715,7 +715,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "2Fxmhks0bxGSBdJ92vM42m",
     appleMusicId: "1450695739",
-    youtubeId: null,
+    youtubeId: "DyDfgMOUjCI",
     programNotes: {
       notes: "Made in a bedroom by a teenager and her brother. The bass is absurdly heavy for a pop song, the vocal is ASMR-quiet, and the whole thing is a masterclass in modern minimalist production.",
       listenFor: "The sub-bass drop — it's tuned to hit frequencies most pop producers avoid. On planars, it's chest-rattling. Billie's vocal is whispered, dry, and uncomfortably close. The contrast between the quiet vocal and massive bass is the entire point.",
@@ -733,7 +733,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "3Rlhwkx64BqwcbwPc5AE6E",
     appleMusicId: "1564531181",
-    youtubeId: null,
+    youtubeId: "RUQl6YcMalg",
     programNotes: {
       notes: "If 'bad guy' was the blueprint, this is the refinement. Sparser, punchier, and with a swagger that the bass line drives entirely.",
       listenFor: "The kick drum and bass interaction — they lock together in a way that creates a pocket of air between hits. On good headphones, the silence between beats is as intentional as the sounds.",
@@ -751,7 +751,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "2P2C42EgrHsdLs1gCmfhkJ",
     appleMusicId: "1713785280",
-    youtubeId: null,
+    youtubeId: "9Sc-ir2UwGU",
     programNotes: {
       notes: "Tropical house done right. The plucked synth melody is immediately recognizable, and Conrad Sewell's vocal gives it a warmth that elevates it above the genre.",
       listenFor: "The signature Kygo pluck sound — a marimba-like synth that's panned wide with subtle delay. The drop is gentle rather than aggressive, and the low end is clean and controlled.",
@@ -769,7 +769,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "5WI2ltQIdwgzf1SNE76JyR",
     appleMusicId: "1719860748",
-    youtubeId: null,
+    youtubeId: "Ly7uj0JwgKg",
     programNotes: {
       notes: "Flume's signature sound — glitchy, textured electronic production wrapped around a pop vocal. The drops don't follow EDM convention; they stutter and fragment.",
       listenFor: "The vocal chops and glitch effects around Kai's voice — Flume treats the vocal as an instrument to be manipulated, not just a melody carrier. The bass in the chorus is distorted and wide.",
@@ -789,7 +789,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "0d28khcov6AiegSCpG5TuT",
     appleMusicId: "850571371",
-    youtubeId: null,
+    youtubeId: "HyTpu6BmE88",
     programNotes: {
       notes: "A virtual band created by Damon Albarn and Jamie Hewlett — the concept itself is about the line between human and machine. The production layers hip-hop, rock, and melancholy into something unlike anything else.",
       listenFor: "The laugh that opens the track — recorded through a cheap mic intentionally to sound lo-fi against the polished production. De La Soul's energy on the chorus versus Albarn's melancholy verses creates a tension between party and despair.",
@@ -807,7 +807,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "3wLZ69kr5J2sb934Kpv02c",
     appleMusicId: "986800860",
-    youtubeId: null,
+    youtubeId: "OJWJE0x7T4Q",
     programNotes: {
       notes: "Gabriel was obsessed with sounds nobody had heard before. Every element of this track was an experiment in merging acoustic instruments with early digital technology.",
       listenFor: "The intro is a Shakuhachi flute sampled through a Fairlight CMI, one of the first digital samplers ever made. The brass stabs, the Synclavier bass, the layered backing vocals — every sound was processed through gear that barely existed.",
@@ -825,7 +825,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "0oks4FnzhNp5QPTZtoet7c",
     appleMusicId: "617154360",
-    youtubeId: null,
+    youtubeId: "zhl-Cs1-sG4",
     programNotes: {
       notes: "A spoken-word history of electronic music inside an electronic track. It's a 9-minute epic that transitions from disco to jazz-fusion to full-blown electronic odyssey.",
       listenFor: "The transitions between sections — each one introduces new instruments and production techniques. The modular synthesizer solo in the second half is Daft Punk letting their machines loose. The dynamic range is enormous.",
@@ -843,7 +843,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "7569Hbv0FUS7vjkdGvdgeZ",
     appleMusicId: "1443218866",
-    youtubeId: null,
+    youtubeId: "BNHZ0IXhtow",
     programNotes: {
       notes: "Dubstep at its most melodic and aggressive simultaneously. The original track reimagined with Skrillex's signature bass design — heavy, distorted, and surgically precise.",
       listenFor: "The bass drops — they're not just loud, they're textured. On planars, you'll hear the growl and modulation within what initially sounds like a wall of noise. The vocal floats above the chaos untouched.",
@@ -861,7 +861,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "2A3emhzbZo7eSvEUtAm3ZS",
     appleMusicId: "259752777",
-    youtubeId: null,
+    youtubeId: "jb7cTUwPG-A",
     programNotes: {
       notes: "French electro-house that sounds like a rock band. The distorted bass synth, the compressed drums, and the sheer wall of energy — Justice made electronic music feel physical.",
       listenFor: "The distortion — it's everywhere, and it's intentional. The bass synth clips and overdrives in a way that would be a mistake in any other genre. On quality headphones, you can hear the individual harmonics within the distortion.",
@@ -879,7 +879,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "58wDfZrOByUJpigigbi34A",
     appleMusicId: "1824106741",
-    youtubeId: null,
+    youtubeId: "tKi9Z-f6qX4",
     programNotes: {
       notes: "A 10-minute emotional arc built from digital synthesis. Patient, beautiful, and proof that electronic music can be as moving as any orchestral piece.",
       listenFor: "At 2:35, a white noise sweep enters — a filtered noise riser used as a transition tool. On resolving headphones, you'll hear it clearly for possibly the first time. It sounds digital and processed because it is — generated inside a software synth in 2009. The build is glacial and the payoff is immense.",
@@ -899,7 +899,7 @@ export const playlist: Track[] = [
     side: "F",
     spotifyId: "52UcjsM15hjCQAUbTW2hy1",
     appleMusicId: "1556921231",
-    youtubeId: null,
+    youtubeId: "FyYMzEJ-dDE",
     programNotes: {
       notes: "This is the loudest, most disorienting track on the list — and it's intentional. Shoegaze at its most extreme. The guitar is a wall of noise with a melody hiding inside it.",
       listenFor: "The melody is buried under the wall of guitar on purpose. The headphones will find it if you give them the volume. Play it louder than you think you should. On planars, the layers of guitar feedback separate into individual textures.",
@@ -917,7 +917,7 @@ export const playlist: Track[] = [
     side: "F",
     spotifyId: "7tvuLLroI0n6uYBWuFig5d",
     appleMusicId: "1474185845",
-    youtubeId: null,
+    youtubeId: "EDlC7oG_2W4",
     programNotes: {
       notes: "Nine and a half minutes of progressive metal structured around the Fibonacci sequence. This is the most mathematically complex song on the list — and the most physically powerful.",
       listenFor: "The time signature follows the Fibonacci sequence — 1, 1, 2, 3, 5, 8, 13. Maynard's vocal syllables follow it too. Your brain feels the pattern before your conscious mind catches up. Listen with eyes closed. Don't try to count or analyze on first listen.",
@@ -937,7 +937,7 @@ export const playlist: Track[] = [
     side: "F",
     spotifyId: "1YLJVmuzeM2YSUkCCaTNUB",
     appleMusicId: "1440792333",
-    youtubeId: null,
+    youtubeId: "iWOyfLBYtuU",
     programNotes: {
       notes: "After the wall of sound, release. Florence Welch's voice erupts over a percussion army and harp. This is catharsis — the emotional exhale after everything you've just heard.",
       listenFor: "The dynamics — it starts spare and builds to an overwhelming wall of drums, harp, and voice. On quality headphones, the percussion layers are stacked wide and deep. The harp has a shimmer that sits in a frequency range nothing else on the list touches.",
@@ -955,7 +955,7 @@ export const playlist: Track[] = [
     side: "F",
     spotifyId: "6ZFbXIJkuI1dVNWvzJzown",
     appleMusicId: "380350246",
-    youtubeId: null,
+    youtubeId: "RxabLA7UQ9k",
     programNotes: {
       notes: "The final track. Four and a half minutes of slow build from a single note to a full orchestra. This is how you end a journey — with something that makes you want to start it all over again.",
       listenFor: "The way each layer enters. Strings, then brass, then the full weight of the orchestra. On quality headphones, the dynamic range from the opening whisper to the final crescendo is enormous. This track will test the full range of your equipment.",

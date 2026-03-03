@@ -797,7 +797,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "0d28khcov6AiegSCpG5TuT",
     appleMusicId: "850571371",
-    youtubeId: "HyTpu6BmE88",
+    youtubeId: "HyHNuVaZJ-k",
     programNotes: {
       notes: "A virtual band created by Damon Albarn and Jamie Hewlett — the concept itself is about the line between human and machine. The production layers hip-hop, rock, and melancholy into something unlike anything else.",
       listenFor: "The laugh that opens the track — recorded through a cheap mic intentionally to sound lo-fi against the polished production. De La Soul's energy on the chorus versus Albarn's melancholy verses creates a tension between party and despair.",

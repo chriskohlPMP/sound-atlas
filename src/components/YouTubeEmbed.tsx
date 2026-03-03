@@ -15,6 +15,7 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
     registerYoutubePlayer,
     setYoutubePlayState,
     advanceYoutube,
+    autoAdvance,
     togglePlayPause,
     isPlaying,
     volume,
@@ -70,7 +71,7 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
               setYoutubePlayState(false);
             } else if (state === YT.PlayerState.ENDED) {
               setYoutubePlayState(false);
-              advanceYoutube();
+              if (autoAdvance) advanceYoutube();
             }
           },
           onError: (event) => {
@@ -100,7 +101,7 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
     };
   }, [isActive, track.youtubeId]);
 
-  // Stop at youtubeEnd timestamp and advance to next track
+  // Stop at youtubeEnd timestamp — pause always, advance only if enabled
   useEffect(() => {
     if (!isActive || !track.youtubeEnd || !isPlaying) return;
 
@@ -109,13 +110,15 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
       try {
         const current = playerRef.current.getCurrentTime();
         if (current >= track.youtubeEnd!) {
-          advanceYoutube();
+          playerRef.current.pauseVideo();
+          setYoutubePlayState(false);
+          if (autoAdvance) advanceYoutube();
         }
       } catch {}
     }, 500);
 
     return () => clearInterval(interval);
-  }, [isActive, isPlaying, track.youtubeEnd, advanceYoutube]);
+  }, [isActive, isPlaying, track.youtubeEnd, autoAdvance, advanceYoutube, setYoutubePlayState]);
 
   // IntersectionObserver for sticky mini-player
   useEffect(() => {

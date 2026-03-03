@@ -84,6 +84,10 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
   // YouTube single-player: only one embed active at a time
   const [activeYoutubeTrackId, setActiveYoutubeTrackId] = useState<number | null>(null);
 
+  // Auto-advance toggle
+  const [autoAdvance, setAutoAdvance] = useState(false);
+  const toggleAutoAdvance = useCallback(() => setAutoAdvance((v) => !v), []);
+
   // Apple Music UX gate
   const [appleMusicReady, setAppleMusicReady] = useState(() => {
     try { return localStorage.getItem(APPLE_READY_KEY) === "true"; } catch { return false; }
@@ -425,6 +429,8 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
         registerYoutubePlayer,
         setYoutubePlayState,
         advanceYoutube,
+        autoAdvance,
+        toggleAutoAdvance,
       }}
     >
       {children}

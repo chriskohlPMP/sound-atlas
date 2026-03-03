@@ -54,6 +54,8 @@ export interface PlaybackContextValue {
   registerYoutubePlayer: (player: YT.Player | null) => void;
   setYoutubePlayState: (playing: boolean) => void;
   advanceYoutube: () => void;
+  autoAdvance: boolean;
+  toggleAutoAdvance: () => void;
 }
 
 const PlaybackContext = createContext<PlaybackContextValue | null>(null);

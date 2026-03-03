@@ -1,4 +1,4 @@
-import { Play, Pause, SkipBack, SkipForward, Volume2, VolumeX } from "lucide-react";
+import { Play, Pause, SkipBack, SkipForward, Volume2, VolumeX, ListMusic } from "lucide-react";
 import { usePlayback } from "../context/PlaybackContext";
 import { EqualizerIcon } from "./EqualizerIcon";
 import { playlist } from "../data/playlist";
@@ -26,6 +26,8 @@ export function PlayerBar() {
     volume,
     setVolume,
     isMobile,
+    autoAdvance,
+    toggleAutoAdvance,
   } = usePlayback();
 
   // Only show for Spotify when authenticated and ready, or YouTube
@@ -100,6 +102,21 @@ export function PlayerBar() {
               aria-label="Next track"
             >
               <SkipForward className="w-4 h-4" />
+            </button>
+          )}
+
+          {(platform === "spotify" || platform === "youtube") && (
+            <button
+              onClick={toggleAutoAdvance}
+              className={`p-2 transition-colors ${
+                autoAdvance
+                  ? "text-accent"
+                  : "text-text-muted hover:text-text-primary"
+              }`}
+              aria-label={autoAdvance ? "Auto-advance on" : "Auto-advance off"}
+              title={autoAdvance ? "Auto-advance on" : "Auto-advance off"}
+            >
+              <ListMusic className="w-4 h-4" />
             </button>
           )}
         </div>

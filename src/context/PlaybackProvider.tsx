@@ -316,10 +316,7 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
 
   // YouTube single-player controls
   const registerYoutubePlayer = useCallback((player: YT.Player | null) => {
-    const prev = youtubePlayerRef.current;
-    if (prev && prev !== player) {
-      try { prev.destroy(); } catch {}
-    }
+    // Only update the ref — component cleanup handles its own player.destroy()
     youtubePlayerRef.current = player;
   }, []);
 

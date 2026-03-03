@@ -22,7 +22,8 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
 
   const isActive = activeYoutubeTrackId === track.id;
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  // hostRef is the stable div React manages; the YT.Player iframe goes inside it
+  const hostRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YT.Player | null>(null);
   const [embedError, setEmbedError] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
@@ -35,9 +36,13 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
 
     async function init() {
       await loadYouTubeAPI();
-      if (destroyed || !containerRef.current) return;
+      if (destroyed || !hostRef.current) return;
 
-      new window.YT.Player(containerRef.current, {
+      // Create a throwaway div inside the stable host — YT.Player replaces it
+      const target = document.createElement("div");
+      hostRef.current.appendChild(target);
+
+      new window.YT.Player(target, {
         videoId: track.youtubeId!,
         width: "100%",
         height: 220,
@@ -86,6 +91,8 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
         try { playerRef.current.destroy(); } catch {}
         playerRef.current = null;
       }
+      // Clean up any leftover DOM inside the host
+      if (hostRef.current) hostRef.current.innerHTML = "";
       registerYoutubePlayer(null);
     };
   }, [isActive, track.youtubeId]);
@@ -143,7 +150,8 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
             </div>
           </div>
         ) : (
-          <div ref={containerRef} className="rounded-lg overflow-hidden" />
+          // Stable host div — YT.Player iframe is appended inside via useEffect
+          <div ref={hostRef} className="rounded-lg overflow-hidden" />
         )
       ) : (
         <button

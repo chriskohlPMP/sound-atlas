@@ -310,7 +310,8 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0w0Zs8pu4wx9iErRMEG96L",
     appleMusicId: "1706428462",
-    youtubeId: "pGmB7Jksl5k",
+    youtubeId: "LygCJTyHoOE",
+    youtubeStart: 353,
     programNotes: {
       notes: "Audiophile reference material. If you're testing headphones, this is the track audio engineers reach for. Every instrument is recorded, mixed, and mastered to perfection.",
       listenFor: "Steve Gadd's drum solo starting around the 4-minute mark — it's one of the most celebrated in recording history. The hi-hat detail, the snare tone, the way the kick drum locks with the bass. On planars, it's revelatory.",

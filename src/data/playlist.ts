@@ -479,7 +479,7 @@ export const playlist: Track[] = [
     side: "C",
     spotifyId: "1nFtiJxYdhtFfFtfXBv06s",
     appleMusicId: "1440824160",
-    youtubeId: "1YhR5UfaAzM",
+    youtubeId: "s2IeXERwG_U",
     programNotes: {
       notes: "The quietest track on Nevermind. Cobain's vocal is barely above a whisper, the cello adds a weight that's almost physical, and the whole thing sounds like it's being played inside a cardboard box.",
       listenFor: "The proximity effect on Cobain's vocal — he's singing so close to the mic that the low end of his voice is exaggerated. On good headphones, the cello and bass guitar merge into a single dark texture underneath.",

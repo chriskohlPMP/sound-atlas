@@ -329,7 +329,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "4jggSeOIIXdrIXrzrZOBVf",
     appleMusicId: "883897592",
-    youtubeId: "QQrzggb9qSY",
+    youtubeId: "zzE-kVadtNw",
     youtubeStart: 622,
     programNotes: {
       notes: "The first movement of Summer — ominous, tense, building toward a storm. The solo violin carries the narrative entirely.",
@@ -348,7 +348,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "2585tm5FEqfRzNskDHmu5q",
     appleMusicId: "883897593",
-    youtubeId: "QQrzggb9qSY",
+    youtubeId: "zzE-kVadtNw",
     youtubeStart: 941,
     programNotes: {
       notes: "Two minutes of tension. The slow section drips with heat exhaustion before the storm breaks. Vivaldi wrote this as program music — he was scoring weather.",
@@ -367,7 +367,7 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "0Go4cVHryJLcpY2pZVkV3A",
     appleMusicId: "883897594",
-    youtubeId: "QQrzggb9qSY",
+    youtubeId: "zzE-kVadtNw",
     youtubeStart: 1074,
     programNotes: {
       notes: "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",

@@ -50,7 +50,6 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
           autoplay: 1,
           rel: 0,
           modestbranding: 1,
-          ...(track.youtubeStart ? { start: track.youtubeStart } : {}),
         },
         events: {
           onReady: (event) => {
@@ -58,6 +57,9 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
             playerRef.current = event.target;
             registerYoutubePlayer(event.target);
             event.target.setVolume(volume * 100);
+            if (track.youtubeStart) {
+              event.target.seekTo(track.youtubeStart, true);
+            }
           },
           onStateChange: (event) => {
             if (destroyed) return;

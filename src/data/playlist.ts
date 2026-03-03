@@ -816,6 +816,7 @@ export const playlist: Track[] = [
     spotifyId: "3wLZ69kr5J2sb934Kpv02c",
     appleMusicId: "986800860",
     youtubeId: "OJWJE0x7T4Q",
+    youtubeStart: 10,
     programNotes: {
       notes: "Gabriel was obsessed with sounds nobody had heard before. Every element of this track was an experiment in merging acoustic instruments with early digital technology.",
       listenFor: "The intro is a Shakuhachi flute sampled through a Fairlight CMI, one of the first digital samplers ever made. The brass stabs, the Synclavier bass, the layered backing vocals — every sound was processed through gear that barely existed.",

@@ -12,10 +12,10 @@ const SCOPES = [
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const TOKEN_ENDPOINT = "https://accounts.spotify.com/api/token";
 
-const VERIFIER_KEY = "sound-atlas-pkce-verifier";
-const TOKEN_KEY = "sound-atlas-spotify-token";
-const REFRESH_KEY = "sound-atlas-spotify-refresh";
-const EXPIRY_KEY = "sound-atlas-spotify-expiry";
+const VERIFIER_KEY = "ohrwurm-pkce-verifier";
+const TOKEN_KEY = "ohrwurm-spotify-token";
+const REFRESH_KEY = "ohrwurm-spotify-refresh";
+const EXPIRY_KEY = "ohrwurm-spotify-expiry";
 
 export interface TokenData {
   accessToken: string;

@@ -51,6 +51,9 @@ export interface PlaybackContextValue {
   activeYoutubeTrackId: number | null;
   playYoutubeTrack: (trackId: number) => void;
   stopYoutube: () => void;
+  registerYoutubePlayer: (player: YT.Player | null) => void;
+  setYoutubePlayState: (playing: boolean) => void;
+  advanceYoutube: () => void;
 }
 
 const PlaybackContext = createContext<PlaybackContextValue | null>(null);

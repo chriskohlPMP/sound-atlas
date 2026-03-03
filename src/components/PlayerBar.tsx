@@ -71,7 +71,7 @@ export function PlayerBar() {
 
         {/* Controls */}
         <div className="flex items-center gap-2">
-          {platform === "spotify" && (
+          {(platform === "spotify" || platform === "youtube") && (
             <button
               onClick={skipPrevious}
               className="p-2 text-text-muted hover:text-text-primary transition-colors"
@@ -93,7 +93,7 @@ export function PlayerBar() {
             )}
           </button>
 
-          {platform === "spotify" && (
+          {(platform === "spotify" || platform === "youtube") && (
             <button
               onClick={skipNext}
               className="p-2 text-text-muted hover:text-text-primary transition-colors"

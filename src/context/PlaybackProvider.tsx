@@ -27,7 +27,7 @@ function getInitialPlatform(): StreamingPlatform {
       return stored;
     }
   } catch {}
-  return "spotify";
+  return isMobileBrowser ? "youtube" : "spotify";
 }
 
 function getInitialVolume(): number {
@@ -48,6 +48,11 @@ playlist.forEach((t) => {
 const allSpotifyIds = playlist
   .filter((t) => t.spotifyId)
   .map((t) => t.spotifyId!);
+
+// All YouTube-playable track IDs in order
+const youtubeTrackIds = playlist
+  .filter((t) => t.youtubeId)
+  .map((t) => t.id);
 
 export function PlaybackProvider({ children }: { children: ReactNode }) {
   // Platform
@@ -228,6 +233,24 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
     return () => clearInterval(interval);
   }, [isPlaying, platform]);
 
+  // --- Progress timer (YouTube) ---
+  useEffect(() => {
+    if (!isPlaying || platform !== "youtube") return;
+
+    const interval = setInterval(() => {
+      const player = youtubePlayerRef.current;
+      if (!player) return;
+      try {
+        const current = player.getCurrentTime();
+        const duration = player.getDuration();
+        if (typeof current === "number") setProgressMs(current * 1000);
+        if (typeof duration === "number" && duration > 0) setDurationMs(duration * 1000);
+      } catch {}
+    }, 500);
+
+    return () => clearInterval(interval);
+  }, [isPlaying, platform]);
+
   // --- Controls ---
   const login = useCallback(async () => {
     await initiateLogin();
@@ -280,18 +303,6 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
     }
   }, [platform]);
 
-  const skipNext = useCallback(() => {
-    if (platform === "spotify" && playerRef.current) {
-      playerRef.current.nextTrack();
-    }
-  }, [platform]);
-
-  const skipPrevious = useCallback(() => {
-    if (platform === "spotify" && playerRef.current) {
-      playerRef.current.previousTrack();
-    }
-  }, [platform]);
-
   const seekTo = useCallback(
     (ms: number) => {
       if (platform === "spotify" && playerRef.current) {
@@ -304,14 +315,68 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
   );
 
   // YouTube single-player controls
+  const registerYoutubePlayer = useCallback((player: YT.Player | null) => {
+    const prev = youtubePlayerRef.current;
+    if (prev && prev !== player) {
+      try { prev.destroy(); } catch {}
+    }
+    youtubePlayerRef.current = player;
+  }, []);
+
+  const setYoutubePlayState = useCallback((playing: boolean) => {
+    setIsPlaying(playing);
+  }, []);
+
   const playYoutubeTrack = useCallback((trackId: number) => {
     setActiveYoutubeTrackId(trackId);
     setManualCurrentTrack(trackId);
+    setIsPlaying(true);
+    setError(null);
   }, []);
 
   const stopYoutube = useCallback(() => {
+    const player = youtubePlayerRef.current;
+    if (player) {
+      try { player.destroy(); } catch {}
+      youtubePlayerRef.current = null;
+    }
     setActiveYoutubeTrackId(null);
+    setIsPlaying(false);
+    setProgressMs(0);
+    setDurationMs(0);
   }, []);
+
+  const advanceYoutube = useCallback(() => {
+    if (activeYoutubeTrackId === null) return;
+    const idx = youtubeTrackIds.indexOf(activeYoutubeTrackId);
+    if (idx === -1 || idx >= youtubeTrackIds.length - 1) {
+      stopYoutube();
+      return;
+    }
+    playYoutubeTrack(youtubeTrackIds[idx + 1]);
+  }, [activeYoutubeTrackId, stopYoutube, playYoutubeTrack]);
+
+  const skipNext = useCallback(() => {
+    if (platform === "spotify" && playerRef.current) {
+      playerRef.current.nextTrack();
+    } else if (platform === "youtube" && activeYoutubeTrackId !== null) {
+      const idx = youtubeTrackIds.indexOf(activeYoutubeTrackId);
+      if (idx !== -1 && idx < youtubeTrackIds.length - 1) {
+        playYoutubeTrack(youtubeTrackIds[idx + 1]);
+      }
+    }
+  }, [platform, activeYoutubeTrackId, playYoutubeTrack]);
+
+  const skipPrevious = useCallback(() => {
+    if (platform === "spotify" && playerRef.current) {
+      playerRef.current.previousTrack();
+    } else if (platform === "youtube" && activeYoutubeTrackId !== null) {
+      const idx = youtubeTrackIds.indexOf(activeYoutubeTrackId);
+      if (idx > 0) {
+        playYoutubeTrack(youtubeTrackIds[idx - 1]);
+      }
+    }
+  }, [platform, activeYoutubeTrackId, playYoutubeTrack]);
 
   const setVolume = useCallback(
     (v: number) => {
@@ -360,6 +425,9 @@ export function PlaybackProvider({ children }: { children: ReactNode }) {
         activeYoutubeTrackId,
         playYoutubeTrack,
         stopYoutube,
+        registerYoutubePlayer,
+        setYoutubePlayState,
+        advanceYoutube,
       }}
     >
       {children}

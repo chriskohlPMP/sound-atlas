@@ -100,6 +100,23 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
     };
   }, [isActive, track.youtubeId]);
 
+  // Stop at youtubeEnd timestamp and advance to next track
+  useEffect(() => {
+    if (!isActive || !track.youtubeEnd || !isPlaying) return;
+
+    const interval = setInterval(() => {
+      if (!playerRef.current) return;
+      try {
+        const current = playerRef.current.getCurrentTime();
+        if (current >= track.youtubeEnd!) {
+          advanceYoutube();
+        }
+      } catch {}
+    }, 500);
+
+    return () => clearInterval(interval);
+  }, [isActive, isPlaying, track.youtubeEnd, advanceYoutube]);
+
   // IntersectionObserver for sticky mini-player
   useEffect(() => {
     if (!isActive) {

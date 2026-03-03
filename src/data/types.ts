@@ -17,6 +17,7 @@ export interface Track {
   appleMusicId: string | null;
   youtubeId: string | null;
   youtubeStart?: number; // seconds to skip to on play
+  youtubeEnd?: number; // seconds to stop and advance
   programNotes: ProgramNotes;
 }
 

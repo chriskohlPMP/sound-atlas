@@ -371,6 +371,7 @@ export const playlist: Track[] = [
     appleMusicId: "883897594",
     youtubeId: "zzE-kVadtNw",
     youtubeStart: 1074,
+    youtubeEnd: 1229,
     programNotes: {
       notes: "The storm arrives. Furious, relentless, and virtuosic. This is 1725 thrash metal played on gut strings.",
       listenFor: "The speed of Jansen's bow work and the precision of the ensemble. On resolving headphones, even at this tempo, you can distinguish individual instruments. The bass section rumbles like distant thunder.",

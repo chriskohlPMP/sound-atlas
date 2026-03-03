@@ -852,7 +852,7 @@ export const playlist: Track[] = [
     side: "E",
     spotifyId: "7569Hbv0FUS7vjkdGvdgeZ",
     appleMusicId: "1443218866",
-    youtubeId: "BNHZ0IXhtow",
+    youtubeId: "EmIqfhr0L50",
     programNotes: {
       notes: "Dubstep at its most melodic and aggressive simultaneously. The original track reimagined with Skrillex's signature bass design — heavy, distorted, and surgically precise.",
       listenFor: "The bass drops — they're not just loud, they're textured. On planars, you'll hear the growl and modulation within what initially sounds like a wall of noise. The vocal floats above the chaos untouched.",

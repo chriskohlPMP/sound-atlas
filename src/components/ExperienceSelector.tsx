@@ -2,8 +2,6 @@ import type { ReactNode } from "react";
 import { usePlayback } from "../context/PlaybackContext";
 import type { StreamingPlatform } from "../data/types";
 
-const isMobileBrowser = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
 const options: {
   value: StreamingPlatform;
   label: string;
@@ -85,11 +83,6 @@ export function ExperienceSelector() {
                   style={{ opacity: isActive ? 0.8 : 0.5 }}
                 >
                   {opt.sublabel}
-                  {isMobileBrowser && opt.value === "youtube" && (
-                    <span className="block normal-case tracking-normal opacity-70">
-                      Recommended on mobile
-                    </span>
-                  )}
                 </span>
               </span>
             </button>

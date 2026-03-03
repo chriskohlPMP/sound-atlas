@@ -16,6 +16,7 @@ export interface Track {
   spotifyId: string | null;
   appleMusicId: string | null;
   youtubeId: string | null;
+  youtubeStart?: number; // seconds to skip to on play
   programNotes: ProgramNotes;
 }
 

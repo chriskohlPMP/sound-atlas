@@ -291,7 +291,8 @@ export const playlist: Track[] = [
     side: "B",
     spotifyId: "6PHAN2CmhXNwxwfvGZ6aJL",
     appleMusicId: "1440743772",
-    youtubeId: "-VugyHZ40AU",
+    youtubeId: "QJNq5YqZ3EI",
+    youtubeStart: 94,
     programNotes: {
       notes: "One guy, one acoustic guitar, and technique that borders on inhuman. This is what happens when an instrument is pushed to its absolute limit.",
       listenFor: "Every individual string. On resolving headphones, you can track each finger independently — the bass line, the melody, and the rhythmic percussive hits on the body of the guitar all happening simultaneously.",

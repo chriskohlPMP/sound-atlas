@@ -197,6 +197,64 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
   if (!track.youtubeId) return null;
 
   const searchQuery = encodeURIComponent(`${track.artist} ${track.title}`);
+
+  // --- Mobile: render YouTube iframe directly, no custom thumbnail ---
+  // User taps YouTube's own play button once. No autoplay tricks needed.
+  if (isMobile) {
+    const params = new URLSearchParams({
+      playsinline: "1",
+      rel: "0",
+      modestbranding: "1",
+    });
+    if (track.youtubeStart) params.set("start", String(track.youtubeStart));
+    if (track.youtubeEnd) params.set("end", String(track.youtubeEnd));
+
+    return (
+      <div>
+        <iframe
+          src={`https://www.youtube.com/embed/${track.youtubeId}?${params}`}
+          width="100%"
+          height="220"
+          allow="encrypted-media"
+          allowFullScreen
+          loading="lazy"
+          className="rounded-lg"
+          style={{ border: "none" }}
+        />
+        <div className="flex items-center gap-3 mt-2">
+          <a
+            href={`https://music.youtube.com/watch?v=${track.youtubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+          >
+            <ExternalLink className="w-3 h-3" />
+            YouTube Music
+          </a>
+          <a
+            href={`https://www.youtube.com/watch?v=${track.youtubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+          >
+            <ExternalLink className="w-3 h-3" />
+            YouTube
+          </a>
+          <a
+            href={`https://www.youtube.com/results?search_query=${searchQuery}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs text-text-muted hover:text-accent transition-colors"
+          >
+            <Search className="w-3 h-3" />
+            More versions
+          </a>
+        </div>
+      </div>
+    );
+  }
+
+  // --- Desktop: full YT.Player API with programmatic controls ---
   const showStickyBar = isActive && isPlaying && !isVisible && !embedError;
 
   return (

@@ -32,7 +32,7 @@ export function PlayerBar() {
 
   // Only show for Spotify when authenticated and ready, or YouTube
   const showForSpotify = platform === "spotify" && isAuthenticated && isPlayerReady && !isMobile;
-  const showForYoutube = platform === "youtube" && currentTrackId !== null;
+  const showForYoutube = platform === "youtube" && currentTrackId !== null && !isMobile;
 
   if (!showForSpotify && !showForYoutube) return null;
   if (!currentTrackId) return null;

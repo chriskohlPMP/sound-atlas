@@ -19,6 +19,7 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
     togglePlayPause,
     isPlaying,
     volume,
+    isMobile,
   } = usePlayback();
 
   const isActive = activeYoutubeTrackId === track.id;
@@ -89,29 +90,54 @@ export function YouTubeEmbed({ track }: YouTubeEmbedProps) {
     return true;
   }, [track.youtubeId, track.youtubeStart, volume, registerYoutubePlayer, setYoutubePlayState, autoAdvance, advanceYoutube]);
 
-  // Click handler — create player in user-gesture chain so mobile autoplay works
+  // Click handler — on mobile, insert a plain iframe (browser allows autoplay
+  // from iframes inserted directly in a click handler). On desktop, use the
+  // YT.Player API for full programmatic control.
   const handleActivate = useCallback(() => {
-    if (!track.youtubeId) return;
+    if (!track.youtubeId || !hostRef.current) return;
     setEmbedError(false);
     playYoutubeTrack(track.id);
 
-    // Create immediately if API is ready (synchronous = keeps gesture chain)
-    if (createPlayer()) {
+    if (isMobile) {
+      // Plain iframe — the iframe load is gesture-initiated so autoplay works
+      hostRef.current.innerHTML = "";
+      const iframe = document.createElement("iframe");
+      const params = new URLSearchParams({
+        autoplay: "1",
+        playsinline: "1",
+        rel: "0",
+        modestbranding: "1",
+      });
+      if (track.youtubeStart) params.set("start", String(track.youtubeStart));
+      if (track.youtubeEnd) params.set("end", String(track.youtubeEnd));
+      iframe.src = `https://www.youtube.com/embed/${track.youtubeId}?${params}`;
+      iframe.width = "100%";
+      iframe.height = "220";
+      iframe.allow = "autoplay; encrypted-media";
+      iframe.allowFullscreen = true;
+      iframe.style.border = "none";
+      iframe.style.borderRadius = "0.5rem";
+      hostRef.current.appendChild(iframe);
       createdInClickRef.current = true;
+    } else {
+      // Desktop: use YT.Player API for progress, skip, volume control
+      if (createPlayer()) {
+        createdInClickRef.current = true;
+      }
     }
-  }, [track.id, track.youtubeId, playYoutubeTrack, createPlayer]);
+  }, [track.id, track.youtubeId, track.youtubeStart, track.youtubeEnd, isMobile, playYoutubeTrack, createPlayer]);
 
-  // Fallback creation (API wasn't loaded at click time) + cleanup on deactivation
+  // Fallback creation (desktop, API wasn't loaded at click time) + cleanup
   useEffect(() => {
     if (!isActive || !track.youtubeId) return;
 
     let localDestroyed = false;
 
     if (createdInClickRef.current) {
-      // Player was already created in click handler — skip
+      // Player/iframe was already created in click handler — skip
       createdInClickRef.current = false;
-    } else {
-      // API wasn't ready during click — load async and create
+    } else if (!isMobile) {
+      // Desktop fallback: API wasn't ready during click — load async and create
       (async () => {
         await loadYouTubeAPI();
         if (localDestroyed || !hostRef.current) return;

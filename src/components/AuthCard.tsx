@@ -82,9 +82,10 @@ export function AuthCard() {
           Listen on YouTube
         </p>
         <p className="text-text-muted text-sm mb-4 max-w-md mx-auto">
-          Press play on each track to watch and listen right here. If a video
-          isn't available, use the YouTube Music or YouTube links to open it
-          in the app.
+          Press play on each track to listen right here.
+          {isMobile
+            ? " For ad-free listening, use the YouTube Music links below each track to open in the app."
+            : " If a video isn't available, use the YouTube Music or YouTube links to open it in the app."}
         </p>
       </div>
     );

@@ -44,8 +44,13 @@ const options: {
   },
 ];
 
+const isMobileBrowser = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
 export function ExperienceSelector() {
   const { platform, changePlatform } = usePlayback();
+
+  // On mobile, YouTube is the only option — no selector needed
+  if (isMobileBrowser) return null;
 
   return (
     <div>

@@ -27,7 +27,7 @@ function getInitialPlatform(): StreamingPlatform {
       return stored;
     }
   } catch {}
-  return isMobileBrowser ? "spotify" : "youtube";
+  return "youtube";
 }
 
 function getInitialVolume(): number {
